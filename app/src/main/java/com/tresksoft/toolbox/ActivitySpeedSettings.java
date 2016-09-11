@@ -16,6 +16,7 @@ import android.widget.ToggleButton;
 
 import com.mobeng.libs.LibBase;
 import com.mobeng.libs.LibBluetooth;
+import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.apn.ControladorAPN;
 import com.tresksoft.apn.FactoryAPN;
 
@@ -83,7 +84,7 @@ public class ActivitySpeedSettings extends Activity
 		this.seekbar_volume_system = (SeekBar) findViewById(R.id.seekbar_volume_system);
 		this.seekbar_volume_voice_call = (SeekBar) findViewById(R.id.seekbar_volume_voice_call);
 		
-		// Establece los valores máximos de volumen
+		// Establece los valores mï¿½ximos de volumen
 		maxVolumeAlarm = LibBase.getMaxVolume(this, LibBase.VOLUME_ALARM);
 		maxVolumeDTMF = LibBase.getMaxVolume(this, LibBase.VOLUME_DTMF);
 		maxVolumeMusic = LibBase.getMaxVolume(this, LibBase.VOLUME_MUSIC);
@@ -270,7 +271,7 @@ public class ActivitySpeedSettings extends Activity
 			break;
 		}
 		LibBase.setVolume(this, type, progress, 0);
-		// Forzamos la actualización de las barra de volumen por si alguno depende de otro
+		// Forzamos la actualizaciï¿½n de las barra de volumen por si alguno depende de otro
 		actualizaVolumen();
 	}
 

@@ -3,7 +3,6 @@ package com.tresksoft.WifiManager;
 import java.util.List;
 
 import com.tresksoft.toolbox.R;
-import com.tresksoft.wifi.WifiLib;
 
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;

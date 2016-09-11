@@ -16,10 +16,10 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.mobeng.libs.LibAppManager;
 import com.treksoft.apps.LibApps;
+import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CItemDefault;
 
@@ -37,7 +37,7 @@ public class ActivityMove2SD extends ListActivity{
 	 */
 	
 	/**
-	 * mode = 0 --> Solo se muestra el activity con los datos de la aplicación seleccionada
+	 * mode = 0 --> Solo se muestra el activity con los datos de la aplicaciï¿½n seleccionada
 	 * mode = 1 --> Modo Batch
 	 */
 	private int mode = 0;

@@ -21,9 +21,6 @@ import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.graphics.LineChart;
 import com.tresksoft.toolbox.ProcessApplication;
 import com.tresksoft.toolbox.R;
-import com.tresksoft.wifi.FactoryWifi;
-import com.tresksoft.wifi.Wifi;
-import com.tresksoft.wifi.WifiScanItem;
 
 public class ActivityWifiSignalSurvey extends Activity {
 	

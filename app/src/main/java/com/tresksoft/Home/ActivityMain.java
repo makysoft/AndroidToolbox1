@@ -24,20 +24,20 @@ import com.mobeng.libs.LibProcessManager;
 import com.treksoft.apps.LibApps;
 import com.tresksoft.ApplicationManager.ActivityApplicationManager;
 import com.tresksoft.ProccessManager.ActivityProcessManager;
-import com.tresksoft.toolbox.ActivityBatteryManager;
-import com.tresksoft.toolbox.ActivityCacheClean;
+import com.tresksoft.BatteryManager.ActivityBatteryManager;
+import com.tresksoft.CacheManager.ActivityCacheClean;
 import com.tresksoft.toolbox.ActivityMove2SD;
 import com.tresksoft.toolbox.ActivityNetworkProfiles;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.ActivitySpeedSettings;
-import com.tresksoft.toolbox.ActivityWifiManager;
+import com.tresksoft.WifiManager.ActivityWifiManager;
 import com.tresksoft.toolbox.Funciones;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CItemDefault;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
-import com.tresksoft.wifi.FactoryWifi;
-import com.tresksoft.wifi.Wifi;
+import com.tresksoft.WifiManager.FactoryWifi;
+import com.tresksoft.WifiManager.Wifi;
 
 
 public class ActivityMain extends Activity

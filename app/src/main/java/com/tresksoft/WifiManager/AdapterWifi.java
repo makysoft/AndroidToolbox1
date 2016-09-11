@@ -13,7 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.tresksoft.toolbox.R;
-import com.tresksoft.wifi.WifiScanItem;
 
 public class AdapterWifi extends BaseAdapter implements OnClickListener{
 	

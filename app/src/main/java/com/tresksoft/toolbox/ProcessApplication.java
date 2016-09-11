@@ -6,14 +6,14 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Build;
 
-import com.tresksoft.batterymanager.BatteryInfo;
+import com.tresksoft.BatteryManager.BatteryInfo;
 import com.tresksoft.network.NetworkProfile;
 import com.tresksoft.toolbox.data.CProcess;
-import com.tresksoft.wifi.WifiScanItem;
+import com.tresksoft.WifiManager.WifiScanItem;
 
 public class ProcessApplication extends Application{
 
-	// Información sobre la API
+	// Informaciï¿½n sobre la API
 	public int apiLevel = Build.VERSION.SDK_INT;
 	
 	private static Context context;

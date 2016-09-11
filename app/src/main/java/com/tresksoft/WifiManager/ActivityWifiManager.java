@@ -27,11 +27,6 @@ import com.tresksoft.graphics.SaundProgressBar;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.ProcessApplication;
 import com.tresksoft.toolbox.R;
-import com.tresksoft.wifi.FactoryWifi;
-import com.tresksoft.wifi.Wifi;
-import com.tresksoft.wifi.WifiItem;
-import com.tresksoft.wifi.WifiLib;
-import com.tresksoft.wifi.WifiScanItem;
 
 public class ActivityWifiManager extends ListActivity{
 

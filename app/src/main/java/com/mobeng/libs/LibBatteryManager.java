@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 
 import android.os.Environment;
 
-import com.tresksoft.batterymanager.BatteryInfo;
+import com.tresksoft.BatteryManager.BatteryInfo;
 
 public class LibBatteryManager {
 

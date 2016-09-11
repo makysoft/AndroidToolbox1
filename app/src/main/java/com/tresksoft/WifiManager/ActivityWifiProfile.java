@@ -28,7 +28,6 @@ import android.widget.TextView;
 import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.R;
-import com.tresksoft.wifi.WifiLib;
 
 public class ActivityWifiProfile extends ListActivity{
 

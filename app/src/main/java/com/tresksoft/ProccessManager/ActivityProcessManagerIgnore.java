@@ -19,8 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.toolbox.ActivityMain;
-import com.tresksoft.toolbox.AdapterProcessIgnored;
+import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.toolbox.DatabaseHelper;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CProcess;

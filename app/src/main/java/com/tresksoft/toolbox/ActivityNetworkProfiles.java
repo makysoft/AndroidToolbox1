@@ -11,7 +11,6 @@ import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v4.widget.CursorAdapter;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.MenuInflater;
@@ -23,11 +22,12 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.tresksoft.Home.ActivityMain;
 import com.tresksoft.network.NetworkProfile;
 import com.tresksoft.network.NetworkProfileFactory;
 import com.tresksoft.network.NetworkProfileGeneric;
-import com.tresksoft.wifi.FactoryWifi;
-import com.tresksoft.wifi.Wifi;
+import com.tresksoft.WifiManager.FactoryWifi;
+import com.tresksoft.WifiManager.Wifi;
 
 public class ActivityNetworkProfiles extends ListActivity{
 

@@ -19,7 +19,6 @@ import android.widget.TextView;
 import com.mobeng.libs.LibAppManager;
 import com.mobeng.libs.LibFileSystem;
 import com.tresksoft.Home.ActivityMain;
-import com.tresksoft.toolbox.AdapterAppCache;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
