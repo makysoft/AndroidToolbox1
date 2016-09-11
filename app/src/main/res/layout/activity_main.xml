@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/light_gray"
+  android:fadingEdge="vertical"
+  android:fadingEdgeLength="5dp">
+  <LinearLayout 
+  	android:layout_width="fill_parent"
+  	android:layout_height="48dip"
+  	android:background="@color/orange_default" 
+  	android:gravity="center">
+	<TextView
+	    android:id="@+id/textView3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/white"
+	    android:textStyle="bold"
+	    android:text="Android Toolbox"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+  </LinearLayout>   
+  <LinearLayout 
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:padding="10dip">
+	<View  style="@style/VerticalSpring"/>
+  	<LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_weight="1">
+  		<Button
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_process_manager"
+  			android:text="Process Manager"
+  			android:drawableTop="@drawable/ic_process"
+  			android:onClick="onProcessManager"/>
+  		<Button 
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_application_manager"
+  			android:text="Application Manager"
+  			android:drawableTop="@drawable/ic_apps"
+  			android:onClick="onApplicationManager"/>
+  		<Button 
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_wifi_manager"
+  			android:text="Wifi Manager"
+  			android:drawableTop="@drawable/ic_wifi"
+  			android:onClick="onWifiManager"/>
+  	</LinearLayout>
+  	<View  style="@style/VerticalSpring"/>
+  	<ImageView style="@style/VerticalSeparator"/>
+  	<View style="@style/VerticalSpring"/>
+  	<LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_weight="1">
+  		<Button
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_tool4"
+  			android:text="Network Manager"
+  			android:drawableTop="@drawable/ic_network"
+  			android:onClick="onNetworkProfileManager"
+  			/>
+  		<!-- android:onClick="onBatteryManager" -->
+    	<Button 
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_tool9"
+  			android:text="Speed Settings"
+  			android:drawableTop="@drawable/ic_speed_settings"
+  			android:onClick="onSpeedSettings"/>  		
+    	<Button 
+  			style="@style/HomeButton"
+  			android:id="@+id/home_btn_tool6"
+  			android:text="Cache Cleaner"
+  			android:drawableTop="@drawable/ic_cache_cleaner"
+  			android:onClick="onCacheClean"/>
+  	</LinearLayout>
+  	<View  style="@style/VerticalSpring"/>	 		
+  </LinearLayout>
+</LinearLayout>

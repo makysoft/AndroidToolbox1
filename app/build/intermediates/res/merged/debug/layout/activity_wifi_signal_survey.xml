@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_bg">
+    <LinearLayout style="@style/TitleBar_Orange" android:gravity="center_vertical">
+        <ImageButton style="@style/TitleBarAction" android:onClick="onHomeClick" android:src="@drawable/ic_home_default" />      
+    	<TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dip" android:textColor="@color/white" android:textStyle="bold" android:text="Wifi Manager" android:textAppearance="?android:attr/textAppearanceMedium" />
+    	<View style="@style/TitleBarSpring" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+		    <ImageView style="@style/Divider"/>     
+		    <LinearLayout style="@style/StatusBar">
+			    	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal">
+				    	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight=".6" android:orientation="vertical">
+				            <TextView android:id="@+id/lbl_status_wifi_ssid" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextShadowWhite" android:text="NONAME" android:textSize="20sp" android:textStyle="bold"/>
+				            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+				                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextShadowWhite" android:text="@string/lbl_security" android:textSize="12sp" android:textStyle="bold" android:textColor="@color/gray"/>	 
+				                <TextView android:id="@+id/lbl_status_security" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dp" style="@style/TextShadowWhite" android:text="NOINFO" android:textSize="12sp" android:textStyle="bold" android:textColor="#ff0000"/>	 				   	    
+				            </LinearLayout>
+						</LinearLayout>
+					 	<ImageView android:background="@drawable/gradient" android:layout_width="1dp" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" />
+						<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dp" android:layout_weight="1" android:gravity="center_vertical" android:orientation="vertical">
+				            <TextView android:id="@+id/lbl_status_wifi_bssid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BSSID 00:00:00:00:00:00" android:textStyle="bold" android:textSize="10sp"/>
+				           	<TextView android:id="@+id/lbl_status_channel" style="@style/TextShadowWhite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_channel" android:textSize="8sp"/>
+				        </LinearLayout>  			
+					</LinearLayout>			
+		    </LinearLayout>   
+		    <ImageView style="@style/Divider"/>  
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <LinearLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:layout_weight="1"
+				    android:gravity="center"
+				    android:orientation="vertical">
+				    <ImageView
+				        android:id="@+id/iv_signal_strength"
+				        android:layout_width="@dimen/dim_signal_strength_w"
+				        android:layout_height="@dimen/dim_signal_strength_h"
+				        android:src="@drawable/ic_signal_strength_0"/>
+				</LinearLayout>
+				<ImageView android:background="@drawable/white_black_gradient" android:layout_width="1dp" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" />			
+		        <LinearLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical"
+				    android:orientation="vertical">
+		            <TextView
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:text="@string/lbl_signal"
+			    	    android:textSize="20sp"
+			    	    android:textStyle="bold"
+			    	    android:layout_marginLeft="10dp"
+			    	    android:layout_marginBottom="10dp"/>	    
+	    			<TextView
+			    	    android:id="@+id/tv_signal_strength"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:text="NOINFO dbm"
+			    	    android:textSize="16sp"
+			    	    android:textStyle="bold"
+			    	    android:textColor="@color/gray"
+			    	    android:layout_marginLeft="10dp"
+			    	    android:layout_marginBottom="10dp"/>
+		        </LinearLayout>				
+            </LinearLayout>
+            <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.4"
+		        android:orientation="horizontal">
+	
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="fill_parent"
+		            android:layout_weight="1"
+		            android:gravity="right|center_vertical"
+		            android:orientation="vertical" >
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginRight="10dp"
+		                android:text="@string/lbl_max_dbm"
+		                android:textSize="10sp"
+		                android:textStyle="bold" 
+		                android:textColor="#2a9781"/>
+		            <TextView
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginRight="10dp"
+		                android:text="@string/lbl_time_max_dbm"
+		                android:textSize="10sp"
+		                android:textStyle="bold" 
+		                android:textColor="#2a9781"/>	            
+				</LinearLayout>
+				<ImageView android:background="@drawable/white_black_gradient" android:layout_width="1dp" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" />			
+		        <LinearLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="fill_parent"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical"
+				    android:orientation="vertical">
+		            <TextView
+		                android:id="@+id/tv_max_dbm"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:text="NOINFO dBm"
+			    	    android:textSize="10sp"
+			    	    android:textStyle="bold"
+			    	    android:layout_marginLeft="10dp"
+			    	    android:textColor="#96810b"/>	    
+		            <TextView
+		                android:id="@+id/tv_time_max_dbm"
+			    	    android:layout_width="wrap_content"
+			    	    android:layout_height="wrap_content"
+			    	    android:text="NOINFO seg"
+			    	    android:textSize="10sp"
+			    	    android:textStyle="bold"
+			    	    android:layout_marginLeft="10dp"
+			    	    android:textColor="#96810b"/>	    		    	    
+		        </LinearLayout>
+		    </LinearLayout>	    
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <com.tresksoft.graphics.LineChart
+	         	android:id="@+id/linechart_survey"
+	         	android:layout_width="fill_parent"
+	         	android:layout_height="fill_parent"/>	
+        </LinearLayout>
+    </LinearLayout>   
+</LinearLayout>

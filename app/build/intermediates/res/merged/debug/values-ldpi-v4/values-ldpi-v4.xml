@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dim_signal_linechart_h">120.0dp</dimen>
+    <dimen name="dim_signal_strength_h">80dp</dimen>
+    <dimen name="dim_signal_strength_w">80dp</dimen>
+    <dimen name="icon_toolbar_height">24dip</dimen>
+    <dimen name="icon_toolbar_width">24dip</dimen>
+    <dimen name="piechart">30px</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="title_height">36dip</dimen>
+    <dimen name="widget_battery_layout_height">60dip</dimen>
+    <dimen name="widget_battery_layout_width">80dip</dimen>
+    <dimen name="widget_capacity_text_x">25dip</dimen>
+    <dimen name="widget_capacity_text_y">55dip</dimen>
+    <dimen name="widget_capacity_textsize">14sp</dimen>
+    <dimen name="widget_default_textsize">9dip</dimen>
+    <dimen name="widget_min_height">24px</dimen>
+    <dimen name="widget_min_width">24px</dimen>
+    <dimen name="widget_mw_text_x">45dip</dimen>
+    <dimen name="widget_mw_text_y">10dip</dimen>
+    <dimen name="widget_temp_text_x">45dip</dimen>
+    <dimen name="widget_temp_text_y">22dip</dimen>
+    <style name="HomeButton">
+		<item name="android:textSize">10dip</item>
+		<item name="android:layout_gravity">top</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_weight">1</item>
+		<item name="android:textColor">@color/text_home</item>
+		<item name="android:background">@null</item>
+	</style>
+    <style name="ListItemCheck">
+		<item name="android:layout_width">45dip</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+    <style name="ListItemSpring">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+    <style name="TitleBar">
+		<item name="android:id">@+id/title_container</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">@dimen/title_height</item>
+		<item name="android:orientation">horizontal</item>
+		<item name="android:background">@drawable/main_header</item>
+	</style>
+    <style name="TitleBarAction">
+		<item name="android:layout_width">50dip</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@drawable/title_button</item>
+	</style>
+    <style name="TitleBarLogo">
+		<item name="android:id">@+id/title_logo</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:clickable">true</item>
+	</style>
+    <style name="TitleBarSeparator">
+		<item name="android:layout_width">1px</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:background">@color/title_separator</item>
+	</style>
+    <style name="TitleBarSpring">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+    <style name="VerticalSeparator">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1px</item>
+		<item name="android:background">@color/separator</item>
+	</style>
+    <style name="VerticalSpring">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">10dip</item>
+	</style>
+</resources>

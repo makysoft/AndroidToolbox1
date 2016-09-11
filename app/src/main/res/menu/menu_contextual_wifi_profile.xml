@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+    	android:id="@+id/wifi_remove"
+    	android:title="@string/contextual_menu_wifi_remove"/>
+    <item
+    	android:id="@+id/wifi_modify"
+    	android:title="@string/contextual_menu_wifi_modify"/>
+</menu>

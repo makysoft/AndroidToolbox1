@@ -1,0 +1,78 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/AndroidToolbox.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/GoogleAdMobAdsSdk-6.0.1.jar => app/libs/GoogleAdMobAdsSdk-6.0.1.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/android/content/IntentFilter.aidl => app/src/main/aidl/android/content/IntentFilter.aidl
+* src/android/content/pm/ActivityInfo.aidl => app/src/main/aidl/android/content/pm/ActivityInfo.aidl
+* src/android/content/pm/ApplicationInfo.aidl => app/src/main/aidl/android/content/pm/ApplicationInfo.aidl
+* src/android/content/pm/FeatureInfo.aidl => app/src/main/aidl/android/content/pm/FeatureInfo.aidl
+* src/android/content/pm/IPackageDataObserver.aidl => app/src/main/aidl/android/content/pm/IPackageDataObserver.aidl
+* src/android/content/pm/IPackageDeleteObserver.aidl => app/src/main/aidl/android/content/pm/IPackageDeleteObserver.aidl
+* src/android/content/pm/IPackageInstallObserver.aidl => app/src/main/aidl/android/content/pm/IPackageInstallObserver.aidl
+* src/android/content/pm/IPackageManager.aidl => app/src/main/aidl/android/content/pm/IPackageManager.aidl
+* src/android/content/pm/IPackageMoveObserver.aidl => app/src/main/aidl/android/content/pm/IPackageMoveObserver.aidl
+* src/android/content/pm/IPackageStatsObserver.aidl => app/src/main/aidl/android/content/pm/IPackageStatsObserver.aidl
+* src/android/content/pm/InstrumentationInfo.aidl => app/src/main/aidl/android/content/pm/InstrumentationInfo.aidl
+* src/android/content/pm/PackageInfo.aidl => app/src/main/aidl/android/content/pm/PackageInfo.aidl
+* src/android/content/pm/PackageStats.aidl => app/src/main/aidl/android/content/pm/PackageStats.aidl
+* src/android/content/pm/PermissionGroupInfo.aidl => app/src/main/aidl/android/content/pm/PermissionGroupInfo.aidl
+* src/android/content/pm/PermissionInfo.aidl => app/src/main/aidl/android/content/pm/PermissionInfo.aidl
+* src/android/content/pm/ProviderInfo.aidl => app/src/main/aidl/android/content/pm/ProviderInfo.aidl
+* src/android/content/pm/ResolveInfo.aidl => app/src/main/aidl/android/content/pm/ResolveInfo.aidl
+* src/android/content/pm/ServiceInfo.aidl => app/src/main/aidl/android/content/pm/ServiceInfo.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

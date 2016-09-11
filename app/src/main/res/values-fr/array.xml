@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="prefs_process_entries">
+		<item>Masquer les processus du système</item>
+		<item>Afficher tous les processus</item>
+	</string-array>
+	<string-array name="prefs_process_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="prefs_application_entries">
+		<item>Nom de l\'application</item>
+		<item>Taille de l\'application</item>
+	</string-array>
+	<string-array name="prefs_application_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>

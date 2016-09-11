@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="prefs_process_entries">
+		<item>隱藏系統進程</item>
+		<item>顯示所有進程</item>
+	</string-array>
+	<string-array name="prefs_process_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="prefs_application_entries">
+		<item>應用程序的名稱</item>
+		<item>應用程序的大小</item>
+	</string-array>
+	<string-array name="prefs_application_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>

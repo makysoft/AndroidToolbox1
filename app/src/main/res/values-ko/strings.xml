@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APPLICATION -->
+    <string name="app_name">Android Toolbox</string>
+    
+    <!-- GENERAL -->
+    <string name="lbl_loading">데이터로드&#8230;</string>    
+    <string name="lbl_add_profile">프로필 추가</string>    
+    <string name="lbl_save">저장</string>
+    <string name="lbl_show_profiles">프로필보기</string>
+    <string name="lbl_apps">애플 리케이션</string>
+    
+    <!-- MAIN  -->
+    <string name="lbl_memoria_interna_disponible">MB 사용 가능한 내부 메모리</string>
+    <string name="lbl_memoria_sd_disponible">MB 사용 가능한 SD 메모리</string>   
+    <string name="lbl_cache">캐시</string>      
+    <string name="lbl_main_wifi">와이파이 네트워크를 찾을 수</string>
+    <string name="lbl_wifi_disabled">무선랜이 비활성화</string>
+    
+    <!-- PROCESS MANAGER -->
+    <string name="lbl_kill_all">죽여라</string>	        
+    <string name="lbl_no_process_ignored">아무도 알 수없는 프로세스 없음</string>
+    <string name="lbl_process_ignored">프로세스는 무시</string>
+    <string name="lbl_show_ignored_list">보기 프로세스는 무시</string>
+    
+    <!-- APPLICATION MANAGER -->
+    <string name="lbl_order_size">크기 기준</string>
+    <string name="lbl_order_name">이름으로</string>	
+    <string name="lbl_filter_all_apps">모든 애플 리케이션</string>
+    <string name="lbl_filter_only_sd_apps">SD 전용</string>
+    <string name="lbl_filter_only_internal_apps">내부용</string>       	 
+    
+    <!-- CACHE CLEANER -->
+    <string name="lbl_total_apps">총 리케이션</string>
+    <string name="lbl_total_cache">총 캐시</string>    
+    <string name="lbl_clean">깨끗이</string>
+    
+	<!-- WIFI PROFILE -->
+	<string name="lbl_no_wifi_profile">아무 와이파이 프로파일 없음</string>
+	<string name="lbl_profiles_configured">구성 프로파일</string>       
+	
+	<!-- WIFI MANAGER -->
+	<string name="lbl_wifi_speed_link">Link speed</string>	
+    
+    <!-- SPEED SETTINGS -->
+    <string name="lbl_settings_header_wireless">무선 설정</string>
+    <string name="lbl_settings_header_audio_video">오디오 및 비디오 설정</string>
+    <string name="lbl_settings_header_security">보안 구성</string>
+    <string name="lbl_settings_header_input">입력 구성</string>    
+    <string name="lbl_activate_bluetooth">블루투스 활성화</string>
+    <string name="lbl_activate_bluetooth_summary">Bluetooth 장치를 활성화하고 표시하게</string>
+    <string name="lbl_activate_apn">활성화 데이터 네트워크</string>
+    <string name="lbl_activate_apn_summary">활성화 / 비활성화 무선 데이터 네트워크 (APN)</string>
+    <string name="lbl_show_enable_input">입력 구성</string>
+    <string name="lbl_show_enable_input_summary">입력 구성을 활성화</string>
+    <string name="lbl_show_select_input">입력 구성을 선택</string>
+    <string name="lbl_show_select_input_summary">필요한 입력 구성을 선택</string>    
+    <string name="lbl_show_ringer_volume">볼륨을 호출 조정</string>
+    <string name="lbl_show_ringer_volume_summary">통화의 볼륨을 조정합니다</string>
+    <string name="lbl_show_security_location">보안 매개 변수를 설정</string>
+    <string name="lbl_show_security_location_summary">보안 설정 및 위치 구성</string>
+    <string name="lbl_show_security_install">설치 구성</string>
+    <string name="lbl_show_security_install_summary">프로그램 설치 세부 사항을 설정</string>    
+    <string name="lbl_show_security_debug">개발의 세부 사항</string>
+    <string name="lbl_show_security_debug_summary">프로그램 개발을위한 세부 사항을 설정</string>
+    <string name="lbl_volume_alarm">경보</string>
+    <string name="lbl_volume_dtmf">DTMF</string>
+    <string name="lbl_volume_music">음악</string>
+    <string name="lbl_volume_notification">Notif.</string>
+    <string name="lbl_volume_ring">Ph.Ring</string>
+    <string name="lbl_volume_system">체계</string>
+    <string name="lbl_volume_voice_call">Voz.Llam</string>    
+     
+    <string name="lbl_information">안내</string>
+	<string name="lbl_phone_memory">내장 메모리</string>
+	<string name="lbl_sd_memory">SD 메모리</string>
+	<string name="lbl_app_list">목록 응용 프로그램</string>
+	
+	<string name="lblmask_memoria_total">합계 %MASK% MB</string>
+	<string name="lblmask_memoria_disponible">가능 %MASK% MB</string>
+	
+	<string name="lbl_nodisponible">사용할 수 없음</string>
+    
+    <!-- MOVE2SD -->
+    <string name="lbl_no_apps_to_sd">SD로 이동하려면 어떤 응용 프로그램이 없음</string>	
+    <string name="lbl_batch_move">배치 이동</string>
+	
+    <!-- ACTIVITIES -->
+    <string name="lbl_activity_network_profile">네트워크 프로필 관리자</string>
+    <string name="lbl_activity_battery">배터리 관리</string>
+    <string name="lbl_activity_wifi">와이파이 관리자</string>
+    <string name="lbl_activity_speed_settings">속도 설정</string>
+    <string name="lbl_activity_cache_clean">클린 캐시</string>
+    <string name="lbl_activity_move_sd">Move2SD</string>
+        
+    <!-- TOAST -->
+    <string name="toast_empty_fields">모든 필드 기입하여주십시오</string>    
+    
+    <string name="widget_name">위젯 프로세스 매니저</string>
+    
+    <!-- CHARTS -->
+    <string name="lbl_battery_capacity">용량 (%)</string>    
+    <string name="lbl_cargando">로드하는 응용 프로그램&#8230;</string>
+    <string name="lbl_status_background">주 : 배경</string>
+    <string name="lbl_status_empty">상태 : 비어 있음</string>
+    <string name="lbl_status_foreground">상태 : 전경</string>
+    <string name="lbl_status_perceptible">상태 : 지각할 수</string>
+    <string name="lbl_status_service">상태 : 서비스</string>
+    <string name="lbl_status_visible">상태 : 볼</string>
+    <string name="lbl_menu_ordenar_tamanho">크기로 정렬</string>
+    <string name="lbl_menu_ordenar_nombre">이름으로 정렬</string>
+    <string name="lbl_prefs_categ_procesos">환경 설정 프로세스를 나열</string>
+    <string name="lbl_prefs_categ_aplicaciones">환경 설정 응용 프로그램 목록</string>
+    <string name="lbl_prefs_about_application">약&#8230;</string>
+    <string name="lbl_prefs_visit_market">시장으로 이동&#8230;</string>
+    <string name="lbl_prefs_send_email">메일 보내기</string>   
+    <string name="lbl_close">가까운</string> 
+	<string name="lbl_short_size">크기 :</string>
+	<string name="lbl_short_cache">캐시:</string>
+	<string name="lbl_short_data">데이터:</string>    
+    <string name="prefs_process_key">listProcess</string>
+    <string name="prefs_process_default">1</string>
+    <string name="prefs_process_title">프로세스가 표시</string>
+    <string name="prefs_process_summary">표시되는 프로세스의 유형 선택</string>
+    <string name="prefs_application_key">listApplication</string>
+    <string name="prefs_application_default">1</string>
+    <string name="prefs_application_title">나열된 유형 순서</string>
+    <string name="prefs_application_summary">응용 프로그램 목록의 테스트를 선택</string>
+    <string name="prefs_about_key">about</string>
+    <string name="prefs_about_title">프로세스 매니저</string>
+    <string name="prefs_about_summary">프로그램 정보</string>
+    <string name="prefs_market_key">market</string>
+    <string name="prefs_market_summary">안드로이드 시장에서 도구 상자를 참조하십시오</string>
+    <string name="prefs_send_email_key">send_email</string>
+    <string name="prefs_send_email_summary">전자 우편에게 개발자 보내기</string>    
+    <string name="lbl_process_uid_system">공정 시스템</string>
+    <string name="lbl_process_uid_user">사용자 프로세스</string>
+    <string name="lbl_statusbar_free_mem">자유 메모리</string>
+    <string name="lbl_wifi_frequency">주파수</string>
+    <string name="lbl_wifi_channel">채널</string>
+    <string name="lbl_write_suggestion">당신의 의견 쓰기</string>
+	<string name="lbl_send_suggestion">안드로이드 도구 상자 - 제안 보내기</string>    
+    <string name="wifi_status_scanning">찾고&#8230;</string>
+    <string name="wifi_status_associating">연결&#8230;</string>
+    <string name="wifi_status_completed">에 연결</string>
+    <string name="wifi_status_no_associated">어떠한 파트너 없음</string>
+    <string name="process_mem_free">사용 가능한 메모리</string>
+	<string name="dialog_wifi_adapter_no_activate">와이파이 어댑터가 활성화되지 않습니다. 당신은 어떻게 하시겠습니까?</string>
+	<string name="dialog_wifi_fail_initialize">와이파이 어댑터를 초기화하지 못했습니다</string>    
+    <string name="acerca">약&#8230;</string>
+    <string name="lbl_acerca">에 의해 구동\n\nMobile Engineering Inc.\n\nemail: salvalc@gmail.com</string>    
+    <string name="menu_principal_enviar_comentario">제안 보내기</string>
+	<string name="menu_principal_puntuar">지원 속도</string>	
+	<string name="menu_preferences">환경 설정</string>
+	<string name="lbl_wifi_name">Wi-Fi 네트워크 이름 (SSID)</string>
+	<string name="lbl_wifi_add_profile">무선 프로파일을 추가하십시오</string>
+	<string name="lbl_encriptacion">보안</string>
+	<string name="lbl_password">암호</string>
+	<string name="lbl_show_password">비밀 번호를 표시</string>
+	
+	<string name="lbl_network_profile_name">프로필 이름</string>
+	<string name="lbl_network_profile_manual">매뉴얼</string>
+	<string name="lbl_network_profile_dhcp">DHCP</string>
+	<string name="lbl_network_profile_ip">IP</string>
+	<string name="lbl_network_profile_mask">서브넷 마스크</string>
+	<string name="lbl_network_profile_gateway">게이트웨이</string>
+	<string name="lbl_network_profile_dns1">DNS1</string>
+	<string name="lbl_network_profile_dns2">DNS2</string>
+	
+	<string-array name="encriptacion_prompt">
+		<item>Open</item>
+		<item>WEP</item>
+		<item>WPA/WPA2 PSK</item>
+	</string-array>	
+	<string-array name="encriptacion_array">
+		<item>Open</item>
+		<item>WEP (Hex)</item>
+		<item>WEP (ASCII)</item>
+		<item>WPA/WPA2 PSK</item>
+	</string-array>
+	
+	<string name="msg_add_connection">연결 추가 / 수정</string>
+	<string name="msg_add_connection_failure">연결을 추가 / 수정할 수 없습니다</string>
+	
+		<!--  BOTONES -->
+	<string name="button_ignore_list">무시된 프로세스</string>
+	<string name="button_process_list">실행중인 프로세스</string>
+	<string name="button_wifi_profile">프로필</string>
+	<string name="button_wifi_survey">스캔</string>	
+	
+	<!--  MENU CONTEXTUAL -->
+	<string name="contextual_menu_wifi_connect">연결</string>
+	<string name="contextual_menu_wifi_disconnect">연결 끊기</string>
+	<string name="contextual_menu_wifi_add">추가</string>	
+	<string name="contextual_menu_wifi_remove">삭제</string>
+	<string name="contextual_menu_wifi_modify">변화</string>	
+	<string name="contextual_menu_wifi_signal_survey">추적 신호</string>		
+	<string name="contextual_menu_add_ignore_list">무시 목록에 추가</string>
+	<string name="contextual_menu_remove_ignored">무시 목록 삭제</string>
+	<string name="contextual_menu_kill_process">프로세스를 죽이기</string>
+	<string name="contextual_menu_open_process">프로세스로 이동</string>	
+	<string name="contextual_menu_goto_application_info">지원 정보</string>
+	<string name="contextual_menu_visit_market">시장을 보시려면 여기를 클릭하세요</string>	
+	<string name="contextual_menu_force_stop_process">강제 종료 프로세스</string>
+	
+	<string name="contextual_menu_profile_network_activate">프로필을 활성화</string>
+	<string name="contextual_menu_profile_network_remove">프로필 삭제</string>
+	<string name="contextual_menu_profile_network_modify">프로필 수정</string>	    
+	    
+	<!-- BATTERY WIDGET -->
+	<string name="battery_temp">ºC</string>	    
+	
+	<!-- MESSAGES -->
+	<string name="msg_search_cache">찾고 캐시 요소&#8230;</string>
+	<string name="msg_no_cache">캐시를 삭제 할 항목이 없습니다</string>
+	<string name="msg_no_network">더 프로필 구성된 네트워크가 없습니다</string>
+	
+	<!-- ACTIVITY SURVEY -->
+	<string name="lbl_channel">채널</string>
+	<string name="lbl_signal">신호</string>	
+	<string name="lbl_security">보안</string>
+	<string name="lbl_max_dbm">최고 dBm</string>
+	<string name="lbl_time_max_dbm">이후 경과 시간 max dBm</string>	
+	<string name="lbl_no_signal">신호 없음</string>
+	
+	<!-- PROCESS MANAGER -->
+	<string name="lbl_loading_process">로드 프로세스</string>	
+	
+	<string name="my_xmlns"></string>
+</resources>

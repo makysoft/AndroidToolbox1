@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="encriptacion_array">
+		<item>Open</item>
+		<item>WEP (Hex)</item>
+		<item>WEP (ASCII)</item>
+		<item>WPA/WPA2 PSK</item>
+	</string-array>
+    <string-array name="encriptacion_prompt">
+		<item>Open</item>
+		<item>WEP</item>
+		<item>WPA/WPA2 PSK</item>
+	</string-array>
+    <string-array name="prefs_application_entries">
+		<item>Nom de l\'application</item>
+		<item>Taille de l\'application</item>
+	</string-array>
+    <string-array name="prefs_application_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="prefs_process_entries">
+		<item>Masquer les processus du système</item>
+		<item>Afficher tous les processus</item>
+	</string-array>
+    <string-array name="prefs_process_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string name="acerca">Sur…</string>
+    <string name="app_name">Android Toolbox</string>
+    <string name="battery_temp">ºC</string>
+    <string name="button_ignore_list">Processus ignorés</string>
+    <string name="button_process_list">Les processus actifs</string>
+    <string name="button_wifi_profile">Profils</string>
+    <string name="button_wifi_survey">Balayer</string>
+    <string name="contextual_menu_add_ignore_list">Ajouter à la liste des ignorés</string>
+    <string name="contextual_menu_force_stop_process">Processus d\'arrêt vigueur</string>
+    <string name="contextual_menu_goto_application_info">Informations sur l\'application</string>
+    <string name="contextual_menu_kill_process">Tuer le processus</string>
+    <string name="contextual_menu_open_process">Aller dans le processus</string>
+    <string name="contextual_menu_profile_network_activate">Activer le profil</string>
+    <string name="contextual_menu_profile_network_modify">Modifier le profil</string>
+    <string name="contextual_menu_profile_network_remove">Supprimer le profil</string>
+    <string name="contextual_menu_remove_ignored">Retirer Ignorer la liste</string>
+    <string name="contextual_menu_visit_market">Voir marché</string>
+    <string name="contextual_menu_wifi_add">Ajouter</string>
+    <string name="contextual_menu_wifi_connect">Relier</string>
+    <string name="contextual_menu_wifi_disconnect">Couper</string>
+    <string name="contextual_menu_wifi_modify">Changer</string>
+    <string name="contextual_menu_wifi_remove">Effacer</string>
+    <string name="contextual_menu_wifi_signal_survey">Signal de poursuite</string>
+    <string name="dialog_wifi_adapter_no_activate">L\'adaptateur wifi n\'est pas activé. Aimeriez-vous faire?</string>
+    <string name="dialog_wifi_fail_initialize">Échec d\'initialisation de l\'adaptateur wifi</string>
+    <string name="lbl_acerca">Propulsé par\n\nMobile Engineering Inc.\n\nemail: salvalc@gmail.com</string>
+    <string name="lbl_activate_apn">Activer le réseau de données</string>
+    <string name="lbl_activate_apn_summary">Activer / Désactiver le réseau de données sans fil (APN)</string>
+    <string name="lbl_activate_bluetooth">Activer bluetooth</string>
+    <string name="lbl_activate_bluetooth_summary">Activer le périphérique Bluetooth et le rend visible</string>
+    <string name="lbl_activity_battery">Battery Manager</string>
+    <string name="lbl_activity_cache_clean">Clean Cache</string>
+    <string name="lbl_activity_move_sd">Move2SD</string>
+    <string name="lbl_activity_network_profile">Network Manager</string>
+    <string name="lbl_activity_speed_settings">Speed Settings</string>
+    <string name="lbl_activity_wifi">Wifi Manager</string>
+    <string name="lbl_add_profile">Ajouter un profil</string>
+    <string name="lbl_app_list">Demandes d\'inscription</string>
+    <string name="lbl_apps">applications</string>
+    <string name="lbl_batch_move">D\ém\énagement lot</string>
+    <string name="lbl_battery_capacity">Capacité (%)</string>
+    <string name="lbl_cache">cache</string>
+    <string name="lbl_cargando">Le chargement des applications…</string>
+    <string name="lbl_channel">Canal</string>
+    <string name="lbl_clean">Nettoyer</string>
+    <string name="lbl_close">Fermer</string>
+    <string name="lbl_encriptacion">Sécurité</string>
+    <string name="lbl_filter_all_apps">Toutes les applications</string>
+    <string name="lbl_filter_only_internal_apps">Interne seulement</string>
+    <string name="lbl_filter_only_sd_apps">SD uniquement</string>
+    <string name="lbl_information">Informations</string>
+    <string name="lbl_kill_all">Tuer</string>
+    <string name="lbl_loading">Chargement des données…</string>
+    <string name="lbl_loading_process">Processus de chargement</string>
+    <string name="lbl_main_wifi">réseaux Wifi trouvés</string>
+    <string name="lbl_max_dbm">Maximum dBm</string>
+    <string name="lbl_memoria_interna_disponible">MB de mémoire interne disponible</string>
+    <string name="lbl_memoria_sd_disponible">MB SD mémoire disponible</string>
+    <string name="lbl_menu_ordenar_nombre">Trier par nom</string>
+    <string name="lbl_menu_ordenar_tamanho">Trier par taille</string>
+    <string name="lbl_network_profile_dhcp">DHCP</string>
+    <string name="lbl_network_profile_dns1">DNS1</string>
+    <string name="lbl_network_profile_dns2">DNS2</string>
+    <string name="lbl_network_profile_gateway">Porte</string>
+    <string name="lbl_network_profile_ip">IP</string>
+    <string name="lbl_network_profile_manual">Manuel</string>
+    <string name="lbl_network_profile_mask">Masque de sous réseau</string>
+    <string name="lbl_network_profile_name">Profil Nom</string>
+    <string name="lbl_no_apps_to_sd">Aucune demande de passer \à SD</string>
+    <string name="lbl_no_process_ignored">Pas de processus inconnus</string>
+    <string name="lbl_no_signal">Pas de signal</string>
+    <string name="lbl_no_wifi_profile">Pas de profils Wi-Fi</string>
+    <string name="lbl_nodisponible">Non disponible</string>
+    <string name="lbl_order_name">Nommément</string>
+    <string name="lbl_order_size">Par taille</string>
+    <string name="lbl_password">Mot de passe</string>
+    <string name="lbl_phone_memory">Mémoire interne</string>
+    <string name="lbl_prefs_about_application">Sur…</string>
+    <string name="lbl_prefs_categ_aplicaciones">La liste Préférences de l\'application</string>
+    <string name="lbl_prefs_categ_procesos">Préférences liste des processus</string>
+    <string name="lbl_prefs_send_email">Envoyer un e-mail</string>
+    <string name="lbl_prefs_visit_market">Aller sur le marché…</string>
+    <string name="lbl_process_ignored">processus ignorés</string>
+    <string name="lbl_process_uid_system">Procédé système</string>
+    <string name="lbl_process_uid_user">Processus de l\'utilisateur</string>
+    <string name="lbl_profiles_configured">profils configurés</string>
+    <string name="lbl_save">Sauver</string>
+    <string name="lbl_sd_memory">Mémoire SD</string>
+    <string name="lbl_security">Sécurité</string>
+    <string name="lbl_send_suggestion">Android Toolbox - Envoyez vos suggestions</string>
+    <string name="lbl_settings_header_audio_video">Paramètres audio et vidéo</string>
+    <string name="lbl_settings_header_input">Configurations d\'entrée</string>
+    <string name="lbl_settings_header_security">Configurations de sécurité</string>
+    <string name="lbl_settings_header_wireless">Paramètres sans fil</string>
+    <string name="lbl_short_cache">Cache:</string>
+    <string name="lbl_short_data">Données:</string>
+    <string name="lbl_short_size">Taille:</string>
+    <string name="lbl_show_enable_input">Configurations d\'entrée</string>
+    <string name="lbl_show_enable_input_summary">Activer les configurations d\'entrée</string>
+    <string name="lbl_show_ignored_list">Afficher les processus ignorés</string>
+    <string name="lbl_show_password">Afficher le mot de passe</string>
+    <string name="lbl_show_profiles">Afficher les profils</string>
+    <string name="lbl_show_ringer_volume">Régler le volume</string>
+    <string name="lbl_show_ringer_volume_summary">Ajuste le volume de l\'appel téléphonique</string>
+    <string name="lbl_show_security_debug">Détails de développement</string>
+    <string name="lbl_show_security_debug_summary">Régler les détails pour le développement de programmes</string>
+    <string name="lbl_show_security_install">Configurer l\'installation</string>
+    <string name="lbl_show_security_install_summary">Définissez les détails de l\'installation du programme</string>
+    <string name="lbl_show_security_location">Définissez les paramètres de sécurité</string>
+    <string name="lbl_show_security_location_summary">Configurer les paramètres de sécurité et de localisation</string>
+    <string name="lbl_show_select_input">Sélectionnez la configuration d\'entrée</string>
+    <string name="lbl_show_select_input_summary">Sélectionnez la configuration d\'entrée dont vous avez besoin</string>
+    <string name="lbl_signal">Signaler</string>
+    <string name="lbl_status_background">État: Background</string>
+    <string name="lbl_status_empty">État: Empty</string>
+    <string name="lbl_status_foreground">État: Foreground</string>
+    <string name="lbl_status_perceptible">État: Perceptible</string>
+    <string name="lbl_status_service">État: Service</string>
+    <string name="lbl_status_visible">État: Visible</string>
+    <string name="lbl_statusbar_free_mem">Libérer de la mémoire</string>
+    <string name="lbl_time_max_dbm">Le temps écoulé depuis max dBm</string>
+    <string name="lbl_total_apps">Total apps</string>
+    <string name="lbl_total_cache">Total cache</string>
+    <string name="lbl_volume_alarm">Alarme</string>
+    <string name="lbl_volume_dtmf">DTMF</string>
+    <string name="lbl_volume_music">Musique</string>
+    <string name="lbl_volume_notification">Notif.</string>
+    <string name="lbl_volume_ring">Ph.Ring</string>
+    <string name="lbl_volume_system">Système</string>
+    <string name="lbl_volume_voice_call">Voi.Call</string>
+    <string name="lbl_wifi_add_profile">Ajouter un profil sans fil</string>
+    <string name="lbl_wifi_channel">Canal</string>
+    <string name="lbl_wifi_disabled">Wifi désactivé</string>
+    <string name="lbl_wifi_frequency">Fréquence</string>
+    <string name="lbl_wifi_name">Nom du réseau Wi-Fi (SSID)</string>
+    <string name="lbl_wifi_speed_link">Link speed</string>
+    <string name="lbl_write_suggestion">Écrivez votre suggestion</string>
+    <string name="lblmask_memoria_disponible">Disponible %MASK% MB</string>
+    <string name="lblmask_memoria_total">Total %MASK% MB</string>
+    <string name="menu_preferences">Préférences</string>
+    <string name="menu_principal_enviar_comentario">Envoyer une suggestion</string>
+    <string name="menu_principal_puntuar">Taux d\'application</string>
+    <string name="msg_add_connection">Connexion ajoutées / modifiées</string>
+    <string name="msg_add_connection_failure">Impossible d\'ajouter / modifier la connexion</string>
+    <string name="msg_no_cache">Il ya pas d\'articles à effacer la mémoire cache</string>
+    <string name="msg_no_network">Il n\'existe pas de réseau configuré le profil</string>
+    <string name="msg_search_cache">Vous cherchez des éléments de cache…</string>
+    <string name="my_xmlns"/>
+    <string name="prefs_about_key">about</string>
+    <string name="prefs_about_summary">Renseignements sur le programme</string>
+    <string name="prefs_about_title">Process Manager</string>
+    <string name="prefs_application_default">1</string>
+    <string name="prefs_application_key">listApplication</string>
+    <string name="prefs_application_summary">Sélectionnez le test de la liste des applications</string>
+    <string name="prefs_application_title">Afin de type liste</string>
+    <string name="prefs_market_key">market</string>
+    <string name="prefs_market_summary">Visitez Boîte à outils sur le marché Android</string>
+    <string name="prefs_process_default">1</string>
+    <string name="prefs_process_key">listProcess</string>
+    <string name="prefs_process_summary">Sélectionnez le type de processus est montré</string>
+    <string name="prefs_process_title">Processus montré</string>
+    <string name="prefs_send_email_key">send_email</string>
+    <string name="prefs_send_email_summary">Envoyer un e-mail du développeur</string>
+    <string name="process_mem_free">La mémoire disponible</string>
+    <string name="toast_empty_fields">Tous les champs doivent être remplis</string>
+    <string name="widget_name">Widget Process Manager</string>
+    <string name="wifi_status_associating">Lier…</string>
+    <string name="wifi_status_completed">CONNECTÉ À</string>
+    <string name="wifi_status_no_associated">NO PARTENAIRE</string>
+    <string name="wifi_status_scanning">RECHERCHE…</string>
+</resources>

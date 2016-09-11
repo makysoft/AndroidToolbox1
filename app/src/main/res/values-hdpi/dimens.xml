@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_toolbar_width">48dip</dimen>
+    <dimen name="icon_toolbar_height">48dip</dimen>
+    <dimen name="text_size_16sp">16.0sp</dimen>
+    <dimen name="text_size_12sp">12.0sp</dimen>
+    <dimen name="main_grid_icon_size">64.0dip</dimen>
+	<dimen name="title_height">50dip</dimen>
+	<dimen name="text_size_medium">14sp</dimen>
+	<dimen name="widget_min_width">64dip</dimen>
+	<dimen name="widget_min_height">64dip</dimen>
+	<dimen name="widget_battery_layout_width">80dip</dimen>
+	<dimen name="widget_battery_layout_height">60dip</dimen>
+	<dimen name="widget_capacity_text_x">25dip</dimen>
+	<dimen name="widget_capacity_text_y">55dip</dimen>
+	<dimen name="widget_capacity_textsize">16sp</dimen>
+	<dimen name="widget_default_textsize">9dip</dimen>
+	<dimen name="widget_mw_text_x">42dip</dimen>
+	<dimen name="widget_mw_text_y">15dip</dimen>
+	<dimen name="widget_temp_text_x">42dip</dimen>
+	<dimen name="widget_temp_text_y">25dip</dimen>
+	<dimen name="piechart">60px</dimen>
+	<dimen name="dim_signal_strength_w">120dip</dimen>
+	<dimen name="dim_signal_strength_h">120dip</dimen>
+	<dimen name="dim_signal_linechart_h">200dip</dimen>	
+</resources>

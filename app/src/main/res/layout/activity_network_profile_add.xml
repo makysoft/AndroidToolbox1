@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:baselineAligned="false"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/list_bg">
+  <LinearLayout style="@style/TitleBar_Orange" android:gravity="center_vertical">
+    	<ImageButton style="@style/TitleBarAction" android:onClick="onHomeClick" android:src="@drawable/ic_home_default" />      
+    	<TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dip" android:textColor="@color/white" android:textStyle="bold" android:text="Network Manager" android:textAppearance="?android:attr/textAppearanceMedium" />
+  </LinearLayout>
+  <ImageView style="@style/Divider"/> 
+  <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1">
+	  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:padding="10dip" android:orientation="vertical">
+			<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_name"/>
+	  		<EditText android:id="@+id/profile_ssid" android:layout_width="fill_parent" android:layout_height="wrap_content"/>		
+			<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+				<RadioButton android:id="@+id/profile_type_manual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_manual" />
+				<RadioButton android:id="@+id/profile_type_dhcp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_dhcp" />    			    
+			</RadioGroup>		
+			  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_ip"/>
+			  <EditText android:inputType="date" android:id="@+id/profile_ip" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+			  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_mask"/>
+			  <EditText android:inputType="date" android:id="@+id/profile_mask" android:layout_width="fill_parent" android:layout_height="wrap_content"/>        
+			  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_gateway"/>
+			  <EditText android:inputType="date" android:id="@+id/profile_gateway" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+			  <LinearLayout android:baselineAligned="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+					  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+					      	  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_dns1"/>
+							  <EditText android:inputType="date" android:id="@+id/profile_dns1" android:layout_width="fill_parent" android:layout_height="wrap_content"/>   
+					  </LinearLayout>
+					  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+							  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lbl_network_profile_dns2"/>
+							  <EditText android:inputType="date" android:id="@+id/profile_dns2" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+					  </LinearLayout>
+			  </LinearLayout>
+	    </LinearLayout>
+	</ScrollView>	
+	<ImageView android:background="@drawable/list_divider_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@color/bar_color" android:gravity="center_vertical|right">        
+	    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2">
+	           <!-- Para introducir cualquier elemento -->
+    	</LinearLayout>         
+    	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1">
+       		<LinearLayout android:id="@+id/id_action_save" android:onClick="onSaveProfile" android:orientation="horizontal" android:gravity="center" android:layout_width="fill_parent" android:layout_height="48dip" android:layout_margin="4dip" android:focusable="true" android:clickable="true" android:background="@drawable/list_item_bg_style">
+				<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/bar_icon" android:textStyle="bold" android:text="@string/lbl_save" android:textAppearance="?android:attr/textAppearanceMedium" />	    	        
+    		</LinearLayout>     
+    	</LinearLayout>
+    	<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2">
+        	<!-- Para introducir cualquier elemento -->
+    	</LinearLayout>        
+	</LinearLayout>      	
+</LinearLayout>

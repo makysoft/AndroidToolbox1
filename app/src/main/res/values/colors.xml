@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_primary_text_color">@android:color/black</color>
+    <color name="list_secondary_text_color">#ff808280</color>
+    <color name="list_item_pressed_color">#aa00ff00</color> 
+    <color name="list_item_focused_color">#aa00ff00</color>
+    <color name="list_item">#fff4f4f4</color>
+    <color name="list_color">#ffeeeeee</color> 
+    <color name="bar_color">#ffdddddd</color>
+    <color name="bar_divider">#ffb1b1b1</color>
+    <color name="bar_icon">#ff777777</color>
+	<color name="white">#ffffffff</color>
+	<color name="black">#ff000000</color>
+	<color name="orange">#ffe95d0f</color>
+	<color name="orange_default">#ffe85a0e</color>
+	<color name="gray">#ff888888</color>
+	<color name="light_gray">#ffdddddd</color>
+	<color name="title_background">#ff2e384d</color>
+	<color name="title_separator">#40ffffff</color>
+	<color name="ads_background">#ffdee7ff</color>
+	<color name="foreground1">#ff355689</color>
+	<color name="status_bar">#ffd8d8d8</color>
+	<color name="status_text">#ff000000</color>
+	<color name="text_home">#ff000000</color>
+	<color name="separator">#ff00cc00</color>
+	<color name="text_default">#ff425c8d</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    	android:id="@+id/add_ignore_list"
+    	android:title="@string/contextual_menu_add_ignore_list"/>
+    <item
+    	android:id="@+id/kill_process"
+    	android:title="@string/contextual_menu_kill_process"/>
+    <item
+    	android:id="@+id/open_process"
+    	android:title="@string/contextual_menu_open_process"/>
+    <item
+    	android:id="@+id/force_stop_process"
+    	android:title="@string/contextual_menu_force_stop_process"/>    
+</menu>

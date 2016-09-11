@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="prefs_process_entries">
+		<item>시스템 프로세스를 숨기기</item>
+		<item>모든 프로세스보기</item>
+	</string-array>
+	<string-array name="prefs_process_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="prefs_application_entries">
+		<item>응용 프로그램 이름</item>
+		<item>응용 프로그램 크기</item>
+	</string-array>
+	<string-array name="prefs_application_entries_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+</resources>

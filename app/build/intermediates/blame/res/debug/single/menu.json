@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_network_profile.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_network_profile.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_applicationmanager.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_applicationmanager.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_wifi_profile.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_wifi_profile.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_processmanager.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_processmanager.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_wifi_survey.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_wifi_survey.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_application.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_application.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_principal.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_principal.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/menu/menu_contextual_processmanager_ignore.xml",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/menu/menu_contextual_processmanager_ignore.xml"
+    }
+]
