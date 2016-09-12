@@ -10,8 +10,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.tresksoft.Home.ActivityMain;
-import com.tresksoft.Home.ProcessApplication;
+import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
 
 public class ActivityNetworkProfilesAdd extends Activity{

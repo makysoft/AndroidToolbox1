@@ -6,11 +6,11 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Build;
 
-import com.tresksoft.BatteryManager.BatteryInfo;
+import com.tresksoft.toolbox.BatteryManager.BatteryInfo;
 import com.tresksoft.toolbox.NetworkManager.NetworkProfile;
 import com.tresksoft.toolbox.ColeccionProcesos;
 import com.tresksoft.toolbox.data.CProcess;
-import com.tresksoft.WifiManager.WifiScanItem;
+import com.tresksoft.toolbox.WifiManager.WifiScanItem;
 
 public class ProcessApplication extends Application{
 

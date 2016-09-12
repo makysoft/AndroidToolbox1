@@ -19,9 +19,9 @@ import android.widget.TextView;
 
 import com.mobeng.libs.LibAppManager;
 import com.treksoft.apps.LibApps;
-import com.tresksoft.Home.ActivityMain;
+import com.tresksoft.toolbox.Home.ActivityMain;
 import com.tresksoft.toolbox.AdapterDefault;
-import com.tresksoft.Home.ProcessApplication;
+import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CItemDefault;

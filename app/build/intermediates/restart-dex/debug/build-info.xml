@@ -2,32 +2,58 @@
 <instant-run
     abi="x86_64,x86"
     api-level="22"
-    density="xxhdpi"
+    density="mdpi"
     format="7"
-    timestamp="1473633979873099000"
-    token="980679631653903497" >
+    timestamp="1473719942116448000"
+    token="980679631653903497"
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="1808" />
+        duration="504" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="400" />
+        duration="147" />
     <task
         name="verifier"
-        duration="63" />
+        duration="11" />
 
     <artifact
-        location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
 
-    <build timestamp="1473633979873099000" >
+    <build timestamp="1473719386115759000" >
         <artifact
             location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="1473719942116448000"
+        verifier="METHOD_ADDED" >
+        <artifact
+            location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

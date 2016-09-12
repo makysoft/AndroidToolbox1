@@ -15,6 +15,7 @@ import android.os.Debug;
 import android.widget.Toast;
 
 import com.mobeng.libs.LibProcessManager;
+import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.data.CProcess;
 import com.tresksoft.toolbox.data.CRunningProcess;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
@@ -62,7 +63,7 @@ public class Funciones {
         PackageManager pm = this.context.getPackageManager();
         Intent intent = new Intent(Intent.ACTION_MAIN);
         List<ResolveInfo> list = pm.queryIntentActivities(intent, PackageManager.GET_ACTIVITIES);
-        // Listar las aplicaciones en ejecución
+        // Listar las aplicaciones en ejecuciï¿½n
         ActivityManager am = (ActivityManager) this.context.getSystemService(Context.ACTIVITY_SERVICE);
         List <RunningAppProcessInfo> procInfos = am.getRunningAppProcesses();
         // Recorremos el listado de activities

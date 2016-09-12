@@ -22,10 +22,10 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.Home.ActivityMain;
-import com.tresksoft.Home.ProcessApplication;
-import com.tresksoft.WifiManager.FactoryWifi;
-import com.tresksoft.WifiManager.Wifi;
+import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.toolbox.Home.ProcessApplication;
+import com.tresksoft.toolbox.WifiManager.FactoryWifi;
+import com.tresksoft.toolbox.WifiManager.Wifi;
 import com.tresksoft.toolbox.R;
 
 public class ActivityNetworkProfiles extends ListActivity{

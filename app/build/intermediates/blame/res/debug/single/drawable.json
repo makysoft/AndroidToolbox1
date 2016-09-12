@@ -24,12 +24,12 @@
         "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/drawable/ic_title_refresh.xml"
     },
     {
-        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/drawable/list_divider.9.png",
-        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/drawable/list_divider.9.png"
-    },
-    {
         "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/drawable/ic_speed_settings.xml",
         "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/drawable/ic_speed_settings.xml"
+    },
+    {
+        "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/drawable/list_divider.9.png",
+        "source": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/res/drawable/list_divider.9.png"
     },
     {
         "merged": "/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/res/merged/debug/drawable/arrow_up.png",

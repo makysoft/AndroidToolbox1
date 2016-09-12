@@ -23,7 +23,7 @@ import android.net.Uri;
 import android.os.IBinder;
 import android.os.RemoteException;
 
-import com.tresksoft.toolbox.ProcessApplication;
+import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
 
@@ -243,7 +243,7 @@ public class LibAppManager {
 	
 	public static void showPackageInfo(Object obj, String paquete, int requestCode) {
 		ProcessApplication app = (ProcessApplication) ((Activity) obj).getApplicationContext();
-		// Según que versión de Android tengamos se llama al activity details de una u otra forma
+		// Segï¿½n que versiï¿½n de Android tengamos se llama al activity details de una u otra forma
 		try {
 			Intent intent;
 			if (app.apiLevel >= 9) {

@@ -22,27 +22,28 @@ import com.mobeng.libs.LibAppManager;
 import com.mobeng.libs.LibBase;
 import com.mobeng.libs.LibProcessManager;
 import com.treksoft.apps.LibApps;
-import com.tresksoft.ApplicationManager.ActivityApplicationManager;
+import com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager;
 import com.tresksoft.toolbox.ProccessManager.ActivityProcessManager;
-import com.tresksoft.BatteryManager.ActivityBatteryManager;
-import com.tresksoft.CacheManager.ActivityCacheClean;
+import com.tresksoft.toolbox.BatteryManager.ActivityBatteryManager;
+import com.tresksoft.toolbox.CacheManager.ActivityCacheClean;
 import com.tresksoft.toolbox.Move2SDManager.ActivityMove2SD;
 import com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfiles;
 import com.tresksoft.toolbox.ActivityPreferences;
-import com.tresksoft.toolbox.ActivitySpeedSettings;
-import com.tresksoft.WifiManager.ActivityWifiManager;
+import com.tresksoft.toolbox.SpeedSettingsManager.ActivitySpeedSettings;
+import com.tresksoft.toolbox.WifiManager.ActivityWifiManager;
 import com.tresksoft.toolbox.Funciones;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CItemDefault;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
-import com.tresksoft.WifiManager.FactoryWifi;
-import com.tresksoft.WifiManager.Wifi;
+import com.tresksoft.toolbox.WifiManager.FactoryWifi;
+import com.tresksoft.toolbox.WifiManager.Wifi;
 
 
-public class ActivityMain extends Activity
-	implements OnClickListener{
-	
+public class ActivityMain extends Activity implements OnClickListener, HomeContract.View {
+
+    private HomePresenter mHomePresenter;
+
 	private LinearLayout layout_main;
 	private LinearLayout layout_process_manager;
 	private LinearLayout layout_app_manager;
@@ -66,9 +67,9 @@ public class ActivityMain extends Activity
 	
 	// Application Manager
 	private long  memoriaInternaDisponible = 0;
-	private long  memoriaSDDisponible = 0;
-	
-	// Cache Manager
+    private long memoriaSDDisponible = 0;
+
+    // Cache Manager
 	private long totalCache = 0;
 	
 	// Wifi Manager
@@ -79,11 +80,15 @@ public class ActivityMain extends Activity
 	
 	// Move2SD
 	private int moveToSD = 0;
-	private AdView adView;
 
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
+        // Refactor MVP
+        mHomePresenter = new HomePresenter(this, new HomeModel());
+        //
+
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		//setContentView(R.layout.activity_main);
 		setContentView(R.layout.activity_main2);
@@ -91,26 +96,10 @@ public class ActivityMain extends Activity
 		// Inicializar los objetos
 		initialize();
 		
-		createAd();
-		
 		factory = new FactoryWifi(typeDevice);
 		wifiObject = (Wifi)factory.createFactory(ActivityMain.this);
 		wifiObject.setHandler(mHandler);
 
-	}
-	
-	private void createAd() {
-		adView = new AdView(this, AdSize.BANNER, "a14fe2521010ac3");
-		
-		layout_main.addView(adView);
-		
-		AdRequest request = new AdRequest();
-		
-		//request.addTestDevice(AdRequest.TEST_EMULATOR);
-		//request.addTestDevice("974BD40704673E2CAF1813002F22D6A8");
-		
-		adView.loadAd(request);
-		
 	}
 	
 	private void initialize() {
@@ -147,82 +136,23 @@ public class ActivityMain extends Activity
 	}	
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
-		switch(item.getItemId()) {
-		case R.id.item_preferences:
-			mostrarPreferencias();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
-		}
-	}
-	
-	private void mostrarPreferencias() {
-		mostrarActivity(ActivityPreferences.class);
-	}
-	
-	public void onProcessManager(View v) {
-		mostrarActivity(ActivityProcessManager.class);
-	}
-	
-	public void onApplicationManager(View v) {
-		mostrarActivity(ActivityApplicationManager.class);
-	}
-	
-	public void onWifiManager(View v) {
-		mostrarActivity(ActivityWifiManager.class);
-	}
-	
-	public void onBatteryManager(View v) {
-		mostrarActivity(ActivityBatteryManager.class);
-	}
-	
-	public void onNetworkProfileManager(View v) {
-		mostrarActivity(ActivityNetworkProfiles.class);
-	}
-	
-	public void onSpeedSettings(View v) {
-		mostrarActivity(ActivitySpeedSettings.class);
-	}
-	
-	public void onCacheClean(View v) {
-		mostrarActivity(ActivityCacheClean.class);
-	}
-	
-	public void onMove2SD(View v) {
-		mostrarActivity(ActivityMove2SD.class);
-	}
-	
-	public void mostrarActivity(Class <?> cls) {
-		Intent intent = new Intent(this, cls);
-		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-		this.startActivity(intent);
+        boolean retVal;
+
+        retVal = mHomePresenter.onHomeOptionsItemSelected(item.getItemId());
+
+        if (retVal) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
 	}
 
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		switch (v.getId()) {
-		case R.id.layout_process_manager:
-			onProcessManager(v);
-			break;
-		case R.id.layout_app_manager:
-			onApplicationManager(v);
-			break;
-		case R.id.layout_wifi_manager:
-			onWifiManager(v);
-			break;
-		case R.id.layout_network_manager:
-			onNetworkProfileManager(v);
-			break;
-		case R.id.layout_speed_settings:
-			onSpeedSettings(v);
-			break;
-		case R.id.layout_cache_manager:
-			onCacheClean(v);
-			break;
-		case R.id.layout_move2sd:
-			onMove2SD(v);
-			break;
-		}
+
+        // Refactor MVP
+        mHomePresenter.onHomeButtonClick(v.getId());
+        //
+
 	}
 	
 	private void iniciaTemporizadores() {
@@ -238,9 +168,6 @@ public class ActivityMain extends Activity
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
-		if (adView != null) {
-			adView.destroy();
-		}
 		super.onDestroy();
 	}
 

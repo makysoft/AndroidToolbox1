@@ -32,13 +32,13 @@
     <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
 
     <application
-        name="com.tresksoft.toolbox.ProcessApplication"
+        name="com.tresksoft.toolbox.Home.ProcessApplication"
         android:name="com.android.tools.fd.runtime.BootstrapApplication"
         android:icon="@drawable/ic_main"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light" >
         <activity
-            android:name="com.tresksoft.toolbox.ActivityProcessManager"
+            android:name="com.tresksoft.toolbox.ProccessManager.ActivityProcessManager"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityProcessManagerIgnore"
+            android:name="com.tresksoft.toolbox.ProccessManager.ActivityProcessManagerIgnore"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -58,7 +58,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityApplicationManager"
+            android:name="com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -72,7 +72,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityMain"
+            android:name="com.tresksoft.toolbox.Home.ActivityMain"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -82,7 +82,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityWifiManager"
+            android:name="com.tresksoft.toolbox.WifiManager.ActivityWifiManager"
             android:label="@string/lbl_activity_wifi"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -92,7 +92,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityWifiProfile"
+            android:name="com.tresksoft.toolbox.WifiManager.ActivityWifiProfile"
             android:label="@string/lbl_activity_wifi"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -102,7 +102,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityBatteryManager"
+            android:name="com.tresksoft.toolbox.BatteryManager.ActivityBatteryManager"
             android:label="@string/lbl_activity_battery"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -112,7 +112,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityNetworkProfiles"
+            android:name="com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfiles"
             android:label="@string/lbl_activity_network_profile"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -122,7 +122,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityNetworkProfilesAdd"
+            android:name="com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfilesAdd"
             android:label="@string/lbl_activity_network_profile"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -132,7 +132,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityWifiSignalSurvey"
+            android:name="com.tresksoft.toolbox.WifiManager.ActivityWifiSignalSurvey"
             android:label="@string/lbl_activity_network_profile"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -142,7 +142,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivitySpeedSettings"
+            android:name="com.tresksoft.toolbox.SpeedSettingsManager.ActivitySpeedSettings"
             android:label="@string/lbl_activity_speed_settings"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -152,7 +152,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityCacheClean"
+            android:name="com.tresksoft.toolbox.CacheManager.ActivityCacheClean"
             android:label="@string/lbl_activity_cache_clean"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -162,7 +162,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tresksoft.toolbox.ActivityMove2SD"
+            android:name="com.tresksoft.toolbox.Move2SDManager.ActivityMove2SD"
             android:label="@string/lbl_activity_move_sd"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -174,25 +174,6 @@
         <activity
             android:name="com.google.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
-
-        <!--
-     		<service android:name="com.tresksoft.batterymanager.BatteryService"/>
-		<receiver android:name="com.tresksoft.toolbox.WidgetProcessProvider">
-			<intent-filter>
-				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-			</intent-filter>
-			<meta-data android:name="android.appwidget.provider"
-					   android:resource="@xml/widget_processmanager"/>
-		</receiver>
-		<receiver android:name="com.tresksoft.batterymanager.BatteryWidget"
-		    	  android:label="Battery Widget">
-		    <intent-filter>
-		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-		    </intent-filter>
-		    <meta-data android:name="android.appwidget.provider"
-		        	   android:resource="@xml/widget_batterymanager"/>
-		</receiver>
-        -->
     </application>
 
 </manifest>
