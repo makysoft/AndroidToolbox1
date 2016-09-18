@@ -7,6 +7,9 @@ public class HomeContract {
 
     public interface View {
 
+        void updateProcessInfo(long memoryAvailable, int numRunningProcess);
+
+        void updateAppInfo(long internalMemoryAvailable, long sdMemoryAvailable);
     }
 
 }

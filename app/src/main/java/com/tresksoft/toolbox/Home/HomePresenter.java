@@ -2,6 +2,8 @@ package com.tresksoft.toolbox.Home;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Handler;
+import android.os.Message;
 
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager;
@@ -20,6 +22,15 @@ public class HomePresenter {
 
     private final HomeContract.View view;
     private final HomeModel homeModel;
+    private final long DELAY_MILLIS_INIT = 500;
+    private final long DELAY_MILLIS_DEFAULT = 10000;
+
+    private final int EMPTY_MESSAGE_PROCESS_MANAGER = 1;
+    private final int EMPTY_MESSAGE_APP_MANAGER = 2;
+    private final int EMPTY_MESSAGE_CACHE_MANAGER = 3;
+    private final int EMPTY_MESSAGE_SD = 4;
+    private final int EMPTY_MESSAGE_WIFI_MANAGER = 0;
+
 
     public HomePresenter(HomeContract.View view, HomeModel homeModel) {
 
@@ -99,5 +110,91 @@ public class HomePresenter {
             default:
                 return false;
         }
+    }
+
+    public void onHomeResume() {
+        initTimers();
+    }
+
+    private void initTimers() {
+        
+        mHandler.postDelayed(mUpdateTime, DELAY_MILLIS_INIT);
+    }
+
+    private Runnable mUpdateTime = new Runnable() {
+
+        public void run() {
+
+            // ProcessManager Thread
+            (new Thread(new Runnable() {
+                public void run() {
+                    // Informar
+
+                    mHandler.sendEmptyMessage(EMPTY_MESSAGE_PROCESS_MANAGER);
+                }
+            })).start();
+
+            // AppManager Thread
+            (new Thread(new Runnable() {
+                public void run() {
+                    // Informar
+
+                    mHandler.sendEmptyMessage(EMPTY_MESSAGE_APP_MANAGER);
+                }
+            })).start();
+
+            // CacheManager Thread
+            (new Thread(new Runnable() {
+                public void run() {
+                    // Informar
+
+                    mHandler.sendEmptyMessage(EMPTY_MESSAGE_CACHE_MANAGER);
+                }
+            })).start();
+
+            // SD Thread
+            (new Thread(new Runnable() {
+                public void run() {
+                    // Informar
+
+                    mHandler.sendEmptyMessage(EMPTY_MESSAGE_SD);
+                }
+            })).start();
+
+            // WifiManager Thread
+            (new Thread(new Runnable() {
+                public void run() {
+                    // Informar
+
+                    mHandler.sendEmptyMessage(EMPTY_MESSAGE_WIFI_MANAGER);
+                }
+            })).start();
+
+            mHandler.removeCallbacks(mUpdateTime);
+            mHandler.postDelayed(mUpdateTime, DELAY_MILLIS_DEFAULT);
+        }
+    };
+
+    private Handler mHandler;
+
+    {
+        mHandler = new Handler() {
+            public void handleMessage(final Message msg) {
+                switch (msg.what) {
+                    case EMPTY_MESSAGE_PROCESS_MANAGER:
+                        view.updateProcessInfo(homeModel.getMemoryAvailable(), homeModel.getNumRunningProcess());
+                        break;
+                    case EMPTY_MESSAGE_APP_MANAGER:
+                        view.updateAppInfo(homeModel.getInternalMemoryAvailable(), homeModel.getSDMemoryAvailable());
+                        break;
+                    case EMPTY_MESSAGE_CACHE_MANAGER:
+                        break;
+                    case EMPTY_MESSAGE_SD:
+                        break;
+                    case EMPTY_MESSAGE_WIFI_MANAGER:
+                        break;
+                }
+            }
+        };
     }
 }

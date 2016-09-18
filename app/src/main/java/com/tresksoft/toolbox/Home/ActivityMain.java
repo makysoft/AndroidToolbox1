@@ -4,7 +4,6 @@ import java.util.List;
 
 import android.app.Activity;
 import android.app.ActivityManager.MemoryInfo;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,20 +16,10 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.ads.*;
 import com.mobeng.libs.LibAppManager;
 import com.mobeng.libs.LibBase;
 import com.mobeng.libs.LibProcessManager;
 import com.treksoft.apps.LibApps;
-import com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager;
-import com.tresksoft.toolbox.ProccessManager.ActivityProcessManager;
-import com.tresksoft.toolbox.BatteryManager.ActivityBatteryManager;
-import com.tresksoft.toolbox.CacheManager.ActivityCacheClean;
-import com.tresksoft.toolbox.Move2SDManager.ActivityMove2SD;
-import com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfiles;
-import com.tresksoft.toolbox.ActivityPreferences;
-import com.tresksoft.toolbox.SpeedSettingsManager.ActivitySpeedSettings;
-import com.tresksoft.toolbox.WifiManager.ActivityWifiManager;
 import com.tresksoft.toolbox.Funciones;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
@@ -86,7 +75,7 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		super.onCreate(savedInstanceState);
 
         // Refactor MVP
-        mHomePresenter = new HomePresenter(this, new HomeModel());
+        mHomePresenter = new HomePresenter(this, new HomeModel(this));
         //
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -173,6 +162,11 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 
 	@Override
 	protected void onResume() {
+
+		// Refactor MVP
+		mHomePresenter.onHomeResume();
+		//
+
 		iniciaTemporizadores();
 		wifiObject.resume();
 		super.onResume();
@@ -200,14 +194,6 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 					 tvWifi.setText(getResources().getString(R.string.lbl_wifi_disabled));
 				 }
 				 break;
-			 case 1:
-				 tvProcesos.setText(numProcesos  + " " + getResources().getString(R.string.button_process_list));
-		         tvMemoriaLibre.setText((String)getResources().getString(R.string.lbl_statusbar_free_mem) + " " + (new CTamanhoBytes(availMem)).toString());			
-				 break;
-			 case 2:
-				 tvMemory.setText(memoriaInternaDisponible + getResources().getString(R.string.lbl_memoria_interna_disponible));
-				 tvSD.setText(memoriaSDDisponible + getResources().getString(R.string.lbl_memoria_sd_disponible));		
-				 break;
 			 case 3:
 				 tvCache.setText((new CTamanhoBytes(totalCache)).toString() + " " + getResources().getString(R.string.lbl_cache));	
 				 break;
@@ -220,21 +206,6 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 	
 	private Runnable mUpdateTime = new Runnable() {
 		public void run() {
-			
-			(new Thread(new Runnable() {
-				public void run() {
-					informarProcesos();
-					mHandler.sendEmptyMessage(1);
-				}
-			})).start();
-			
-			(new Thread(new Runnable() {
-				public void run() {
-					informarAplicaciones();
-					mHandler.sendEmptyMessage(2);
-				}
-			})).start();
-			
 			
 			(new Thread(new Runnable() {
 				public void run() {
@@ -265,23 +236,7 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 			mHandler.postDelayed(mUpdateTime, 10000);
 		}
 	};
-	
-	private void informarProcesos() {
-		synchronized(this) {
-			this.numProcesos = LibProcessManager.getNumProcesos(ActivityMain.this);
-			Funciones funciones = new Funciones(ActivityMain.this);
-	        // Obtener la memoria disponible
-	        MemoryInfo memInfo = funciones.getMemoryInfo();
-	        this.availMem = memInfo.availMem;
-		}
-	}
-	
-	private void informarAplicaciones() {
-		synchronized(this) {
-			this.memoriaInternaDisponible = LibBase.getInternalMemoryAvailable() / 1048576;
-			this.memoriaSDDisponible = LibBase.getSDMemoryAvailable() / 1048576;
-		}
-	}
+
 	
 	private void informarCache() {
 		LibAppManager libApp = new LibAppManager();
@@ -313,5 +268,14 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 	private void informarWifi() {
 		wifiObject.startScan();
 	}
-	
+
+	public void updateProcessInfo(long memoryAvailable, int numRunningProcess) {
+		tvProcesos.setText(numRunningProcess  + " " + getResources().getString(R.string.button_process_list));
+		tvMemoriaLibre.setText((String)getResources().getString(R.string.lbl_statusbar_free_mem) + " " + (new CTamanhoBytes(memoryAvailable)).toString());
+	}
+
+	public void updateAppInfo(long internalMemoryAvailable, long sdMemoryAvailable) {
+		tvMemory.setText(internalMemoryAvailable + getResources().getString(R.string.lbl_memoria_interna_disponible));
+		tvSD.setText(sdMemoryAvailable + getResources().getString(R.string.lbl_memoria_sd_disponible));
+	}
 }
