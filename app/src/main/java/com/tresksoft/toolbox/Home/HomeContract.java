@@ -10,6 +10,11 @@ public class HomeContract {
         void updateProcessInfo(long memoryAvailable, int numRunningProcess);
 
         void updateAppInfo(long internalMemoryAvailable, long sdMemoryAvailable);
+
+        void updateCacheInfo(long cacheTotal);
+
+        void updateMove2SDInfo(int appMoves2SD);
+
     }
 
 }

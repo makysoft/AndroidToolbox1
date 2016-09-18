@@ -1,9 +1,2 @@
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$override.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomePresenter$2$override.class
 CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$override.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$2$override.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$3$override.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$1$override.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$1$override.class
 CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomeModel$override.class

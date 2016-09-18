@@ -50,25 +50,11 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 	private TextView tvCache;
 	private TextView tvMove2SD;
 	
-	// Process Manager
-	private int numProcesos = 0;
-	private long availMem = 0;
-	
-	// Application Manager
-	private long  memoriaInternaDisponible = 0;
-    private long memoriaSDDisponible = 0;
-
-    // Cache Manager
-	private long totalCache = 0;
-	
 	// Wifi Manager
 	private String typeDevice = "real";
 	private FactoryWifi factory = null;
 	private Wifi wifiObject = null;
 	private boolean wifiEnabled = false;
-	
-	// Move2SD
-	private int moveToSD = 0;
 
 
 	public void onCreate(Bundle savedInstanceState) {
@@ -85,9 +71,9 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		// Inicializar los objetos
 		initialize();
 		
-		factory = new FactoryWifi(typeDevice);
-		wifiObject = (Wifi)factory.createFactory(ActivityMain.this);
-		wifiObject.setHandler(mHandler);
+//		factory = new FactoryWifi(typeDevice);
+//		wifiObject = (Wifi)factory.createFactory(ActivityMain.this);
+//		wifiObject.setHandler(mHandler);
 
 	}
 	
@@ -144,13 +130,13 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 
 	}
 	
-	private void iniciaTemporizadores() {
-		mHandler.postDelayed(mUpdateTime, 500);		
-	}
-	
-	private void cancelaTemporizadores() {
-		mHandler.removeCallbacks(mUpdateTime);
-	}
+//	private void iniciaTemporizadores() {
+//		mHandler.postDelayed(mUpdateTime, 500);
+//	}
+//
+//	private void cancelaTemporizadores() {
+//		mHandler.removeCallbacks(mUpdateTime);
+//	}
 	
 	
 	
@@ -167,103 +153,55 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		mHomePresenter.onHomeResume();
 		//
 
-		iniciaTemporizadores();
-		wifiObject.resume();
+//		iniciaTemporizadores();
+//		wifiObject.resume();
 		super.onResume();
 	}
 	
 	@Override
 	protected void onPause() {
-		cancelaTemporizadores();
-		wifiObject.pause();
+//		cancelaTemporizadores();
+//		wifiObject.pause();
 		super.onPause();
 	}
 	
-	private Handler mHandler = new Handler() {
-		
-		 public void handleMessage(final Message msg) {
-			 switch(msg.what){
-			 case 0:
-				 if (wifiEnabled) {
-					 if ((wifiObject.wifis == null) || (wifiObject.wifis.size() == 0)) {
-							
-					 }else {
-							tvWifi.setText(wifiObject.wifis.size() + " " + getResources().getString(R.string.lbl_main_wifi));
-					 }
-				 } else {
-					 tvWifi.setText(getResources().getString(R.string.lbl_wifi_disabled));
-				 }
-				 break;
-			 case 3:
-				 tvCache.setText((new CTamanhoBytes(totalCache)).toString() + " " + getResources().getString(R.string.lbl_cache));	
-				 break;
-			 case 4:
-				 tvMove2SD.setText(moveToSD + " " + getResources().getString(R.string.lbl_apps));
-				 break;
-			 }
-		 }
-	};
+//	private Handler mHandler = new Handler() {
+//
+//		 public void handleMessage(final Message msg) {
+//			 switch(msg.what){
+//			 case 0:
+//				 if (wifiEnabled) {
+//					 if ((wifiObject.wifis == null) || (wifiObject.wifis.size() == 0)) {
+//
+//					 }else {
+//							tvWifi.setText(wifiObject.wifis.size() + " " + getResources().getString(R.string.lbl_main_wifi));
+//					 }
+//				 } else {
+//					 tvWifi.setText(getResources().getString(R.string.lbl_wifi_disabled));
+//				 }
+//				 break;
+//		 }
+//	};
 	
-	private Runnable mUpdateTime = new Runnable() {
-		public void run() {
-			
-			(new Thread(new Runnable() {
-				public void run() {
-					informarCache();
-					mHandler.sendEmptyMessage(3);
-				}
-			})).start();
-			
-			(new Thread(new Runnable() {
-				public void run() {
-					informarSD();
-					mHandler.sendEmptyMessage(4);
-				}
-			})).start();
-			
-			wifiEnabled = wifiObject.isWifiEnabled();
-			if (wifiEnabled) {
-				(new Thread(new Runnable() {
-					public void run() {
-						informarWifi();
-					}
-				})).start();
-			} else {
-				mHandler.sendEmptyMessage(0);
-			}
-			
-			mHandler.removeCallbacks(mUpdateTime);
-			mHandler.postDelayed(mUpdateTime, 10000);
-		}
-	};
+//	private Runnable mUpdateTime = new Runnable() {
+//		public void run() {
+//
+//			wifiEnabled = wifiObject.isWifiEnabled();
+//			if (wifiEnabled) {
+//				(new Thread(new Runnable() {
+//					public void run() {
+//						informarWifi();
+//					}
+//				})).start();
+//			} else {
+//				mHandler.sendEmptyMessage(0);
+//			}
+//
+//			mHandler.removeCallbacks(mUpdateTime);
+//			mHandler.postDelayed(mUpdateTime, 10000);
+//		}
+//	};
 
-	
-	private void informarCache() {
-		LibAppManager libApp = new LibAppManager();
-		List<CAplicacion> apps = libApp.getAppsInstall(ActivityMain.this);
-		long cache = 0;
-		
-		for(CAplicacion app: apps) {
-			CAplicacion retapp = null;
-			try {
-				retapp = libApp.getAppCache(getPackageManager(), app.getPaquete());
-				if (retapp != null && retapp.getCacheAplicacion().bytes > 0) {
-					cache += retapp.getCacheAplicacion().bytes;
-				}
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-		synchronized(this) {
-			this.totalCache = cache;
-		}
-	}
-	
-	private void informarSD() {
-		List<CItemDefault> apps = LibApps.getInstallApps(this, 0);
-		this.moveToSD = apps.size();
-	}
 	
 	private void informarWifi() {
 		wifiObject.startScan();
@@ -278,4 +216,14 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		tvMemory.setText(internalMemoryAvailable + getResources().getString(R.string.lbl_memoria_interna_disponible));
 		tvSD.setText(sdMemoryAvailable + getResources().getString(R.string.lbl_memoria_sd_disponible));
 	}
+
+	public void updateCacheInfo(long cacheTotal) {
+		tvCache.setText((new CTamanhoBytes(cacheTotal)).toString() + " " + getResources().getString(R.string.lbl_cache));
+	}
+
+	public void updateMove2SDInfo(int appMoves2SD) {
+		tvMove2SD.setText(appMoves2SD + " " + getResources().getString(R.string.lbl_apps));
+		tvMove2SD.setText(appMoves2SD + " " + getResources().getString(R.string.lbl_apps));
+	}
+
 }

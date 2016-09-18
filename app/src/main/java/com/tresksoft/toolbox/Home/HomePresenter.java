@@ -188,10 +188,13 @@ public class HomePresenter {
                         view.updateAppInfo(homeModel.getInternalMemoryAvailable(), homeModel.getSDMemoryAvailable());
                         break;
                     case EMPTY_MESSAGE_CACHE_MANAGER:
+                        view.updateCacheInfo(homeModel.getCacheTotal());
                         break;
                     case EMPTY_MESSAGE_SD:
+                        view.updateMove2SDInfo(homeModel.getAppMoves2SD());
                         break;
                     case EMPTY_MESSAGE_WIFI_MANAGER:
+                        view.updateWifiInfo(homeModel.getWifisAvailable());
                         break;
                 }
             }

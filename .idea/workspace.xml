@@ -10,89 +10,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95616cf-5653-4003-996c-a64d7b8c7320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ApplicationManager/AppManagerModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ProccessManager/ProcessManagerModel.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$4$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$5$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$5.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/CacheManager/CacheManagerModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Move2SDManager/Move2SDModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiManagerModel.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$1$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$1$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$2$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$3$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/ActivityMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomeContract$View.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomeContract$View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomeModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomeModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomePresenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomePresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/tresksoft/toolbox/Home/HomePresenter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/ActivityMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomeContract$View.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomeContract$View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomeModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomeModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomePresenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/compileDebugAidl/dependency.store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomePresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/tresksoft/toolbox/Home/HomePresenter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/ActivityMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomeContract$View.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomeContract$View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomeModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomeModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomePresenter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomePresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/tresksoft/toolbox/Home/HomePresenter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$1$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$1$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$1$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$1$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$2$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$2$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$3$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$3$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$2$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/ActivityMain$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomePresenter$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomePresenter$override.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomeModel$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomeModel$override.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomePresenter$2$override.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/tresksoft/toolbox/Home/HomePresenter$2$override.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/ActivityMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomeContract$View.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomeContract$View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomeModel.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomeModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomePresenter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomePresenter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomePresenter$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/tresksoft/toolbox/Home/HomePresenter$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/ActivityMain.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/ActivityMain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java" />
@@ -140,25 +119,18 @@
             <file leaf-file-name="ActivityMain.java" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/ActivityMain.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.3775427">
-                    <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
+                  <state vertical-scroll-proportion="-0.5866558">
+                    <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
                     <folding>
-                      <element signature="e#4740#4741#0" expanded="true" />
-                      <element signature="e#4787#4788#0" expanded="true" />
-                      <element signature="e#4829#4830#0" expanded="true" />
-                      <element signature="e#4873#4874#0" expanded="true" />
-                      <element signature="e#5296#6008#0" expanded="true" />
-                      <element signature="e#5573#5621#0" expanded="true" />
-                      <element signature="e#5667#5719#0" expanded="true" />
-                      <element signature="e#5825#5869#0" expanded="true" />
-                      <element signature="e#5937#5980#0" expanded="true" />
-                      <element signature="e#6007#6008#0" expanded="true" />
-                      <element signature="e#6102#6210#0" expanded="true" />
-                      <element signature="e#6209#6210#0" expanded="true" />
-                      <element signature="e#7591#7645#0" expanded="true" />
-                      <element signature="e#7681#7738#0" expanded="true" />
-                      <element signature="e#7929#7994#0" expanded="true" />
-                      <element signature="e#8032#8092#0" expanded="true" />
+                      <element signature="e#5974#5975#0" expanded="true" />
+                      <element signature="e#6003#6004#0" expanded="true" />
+                      <element signature="e#6132#6186#0" expanded="true" />
+                      <element signature="e#6222#6279#0" expanded="true" />
+                      <element signature="e#6470#6535#0" expanded="true" />
+                      <element signature="e#6573#6633#0" expanded="true" />
+                      <element signature="e#6757#6801#0" expanded="true" />
+                      <element signature="e#6898#6941#0" expanded="true" />
+                      <element signature="e#6984#7027#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -179,7 +151,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -189,15 +161,78 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#750#751#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1182#1183#0" expanded="true" />
+                <element signature="e#1246#1247#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1349#1350#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WifiManagerModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiManagerModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4930468">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryWifi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/FactoryWifi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WifiReal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiReal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Move2SDModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Move2SDManager/Move2SDModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheManagerModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/CacheManager/CacheManagerModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,7 +258,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomePresenter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="168" column="74" selection-start-line="168" selection-start-column="74" selection-end-line="168" selection-end-column="74" />
+              <caret line="196" column="60" selection-start-line="196" selection-start-column="60" selection-end-line="196" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2195#2196#0" expanded="true" />
@@ -232,18 +267,18 @@
                 <element signature="e#3468#3469#0" expanded="true" />
                 <element signature="e#3616#5100#0" expanded="true" />
                 <element signature="e#5099#5100#0" expanded="true" />
-                <element signature="e#5159#5956#0" expanded="true" />
-                <element signature="e#5955#5956#0" expanded="true" />
+                <element signature="e#5159#6181#0" expanded="true" />
+                <element signature="e#6180#6181#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessManagerModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProcessManagerModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ProccessManager/ProcessManagerModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28445005">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#324#325#0" expanded="true" />
@@ -1819,11 +1854,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/BatteryManager/ActivityBatteryManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ProccessManager/ProcessManagerModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomePresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ApplicationManager/AppManagerModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/CacheManager/CacheManagerModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Move2SDManager/Move2SDModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/ActivityMain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomePresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiManagerModel.java" />
       </list>
     </option>
   </component>
@@ -1990,6 +2028,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="WifiManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidToolbox" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tresksoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toolbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ProccessManager" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2085,6 +2153,10 @@
               <option name="myItemId" value="mobeng" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="third_party" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2142,6 +2214,9 @@
       <recent name="com.tresksoft.toolbox" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.tresksoft.toolbox.WifiManager" />
+      <recent name="com.tresksoft.toolbox.Move2SDManager" />
+      <recent name="com.tresksoft.toolbox.CacheManager" />
       <recent name="com.tresksoft.toolbox.ApplicationManager" />
       <recent name="com.tresksoft.toolbox.Home" />
     </key>
@@ -2503,12 +2578,17 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2543,12 +2623,17 @@
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2718,48 +2803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomePresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="74" selection-start-line="168" selection-start-column="74" selection-end-line="168" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
-            <element signature="e#3440#3441#0" expanded="true" />
-            <element signature="e#3468#3469#0" expanded="true" />
-            <element signature="e#3616#5100#0" expanded="true" />
-            <element signature="e#5099#5100#0" expanded="true" />
-            <element signature="e#5159#5956#0" expanded="true" />
-            <element signature="e#5955#5956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ApplicationManager/AppManagerModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2776,8 +2819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/ProccessManager/ProcessManagerModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28445005">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#324#325#0" expanded="true" />
@@ -2788,28 +2831,128 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Move2SDManager/Move2SDModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10058676">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Move2SDManager/Move2SDModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="196" column="60" selection-start-line="196" selection-start-column="60" selection-end-line="196" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
+            <element signature="e#3468#3469#0" expanded="true" />
+            <element signature="e#3616#5100#0" expanded="true" />
+            <element signature="e#5099#5100#0" expanded="true" />
+            <element signature="e#5159#6181#0" expanded="true" />
+            <element signature="e#6180#6181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/HomeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/Home/ActivityMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3775427">
-          <caret line="233" column="12" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
+        <state vertical-scroll-proportion="-0.5866558">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding>
-            <element signature="e#4740#4741#0" expanded="true" />
-            <element signature="e#4787#4788#0" expanded="true" />
-            <element signature="e#4829#4830#0" expanded="true" />
-            <element signature="e#4873#4874#0" expanded="true" />
-            <element signature="e#5296#6008#0" expanded="true" />
-            <element signature="e#5573#5621#0" expanded="true" />
-            <element signature="e#5667#5719#0" expanded="true" />
-            <element signature="e#5825#5869#0" expanded="true" />
-            <element signature="e#5937#5980#0" expanded="true" />
-            <element signature="e#6007#6008#0" expanded="true" />
-            <element signature="e#6102#6210#0" expanded="true" />
-            <element signature="e#6209#6210#0" expanded="true" />
-            <element signature="e#7591#7645#0" expanded="true" />
-            <element signature="e#7681#7738#0" expanded="true" />
-            <element signature="e#7929#7994#0" expanded="true" />
-            <element signature="e#8032#8092#0" expanded="true" />
+            <element signature="e#5974#5975#0" expanded="true" />
+            <element signature="e#6003#6004#0" expanded="true" />
+            <element signature="e#6132#6186#0" expanded="true" />
+            <element signature="e#6222#6279#0" expanded="true" />
+            <element signature="e#6470#6535#0" expanded="true" />
+            <element signature="e#6573#6633#0" expanded="true" />
+            <element signature="e#6757#6801#0" expanded="true" />
+            <element signature="e#6898#6941#0" expanded="true" />
+            <element signature="e#6984#7027#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/CacheManager/CacheManagerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/FactoryWifi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiReal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/tresksoft/toolbox/WifiManager/WifiManagerModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4930468">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
