@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/item_ordenar_tamanho"
-    	  android:title="@string/lbl_menu_ordenar_tamanho"></item>
-    <item android:id="@+id/item_ordenar_nombre"
-    	  android:title="@string/lbl_menu_ordenar_nombre"></item>
-</menu>

@@ -10,8 +10,7 @@
     	android:normalScreens="true"
     	android:smallScreens="true"
     	android:anyDensity="true"/>
-    <uses-sdk android:minSdkVersion="4" />
-    
+
     <!-- PERMISOS -->
 	<uses-permission android:name="android.permission.RESTART_PACKAGES" />
 	<uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>

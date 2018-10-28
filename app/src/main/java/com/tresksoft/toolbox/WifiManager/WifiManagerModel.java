@@ -21,6 +21,7 @@ public class WifiManagerModel {
 
         if(wifiObject.isWifiEnabled()) {
             wifiObject.startScan();
+            return 0;
         } else {
             return -1;
         }

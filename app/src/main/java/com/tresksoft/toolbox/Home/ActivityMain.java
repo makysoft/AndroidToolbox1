@@ -226,4 +226,9 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		tvMove2SD.setText(appMoves2SD + " " + getResources().getString(R.string.lbl_apps));
 	}
 
+	@Override
+	public void updateWifiInfo(int wifisAvailable) {
+		
+	}
+
 }

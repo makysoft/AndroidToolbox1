@@ -1,17 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 13
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 27
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.tresksoft.toolbox"
         minSdkVersion 4
-        targetSdkVersion 4
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_1_5
-            targetCompatibility JavaVersion.VERSION_1_5
-        }
+        targetSdkVersion 27
     }
 
     buildTypes {
@@ -20,9 +16,4 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
-}
-
-dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
-    compile files('libs/GoogleAdMobAdsSdk-6.0.1.jar')
 }

@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/aidl/android/content/pm/IPackageDeleteObserver.aidl
+ * Original file: /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/aidl/android/content/pm/IPackageDeleteObserver.aidl
  */
 package android.content.pm;
 /**
@@ -40,23 +40,27 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
+java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(DESCRIPTOR);
+reply.writeString(descriptor);
 return true;
 }
 case TRANSACTION_packageDeleted:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _arg0;
 _arg0 = (0!=data.readInt());
 this.packageDeleted(_arg0);
 return true;
 }
-}
+default:
+{
 return super.onTransact(code, data, reply, flags);
+}
+}
 }
 private static class Proxy implements android.content.pm.IPackageDeleteObserver
 {

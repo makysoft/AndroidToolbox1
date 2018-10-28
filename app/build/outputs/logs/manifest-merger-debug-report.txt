@@ -1,310 +1,321 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-146:12
-	xmlns:tools
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:3:2-48
-	xmlns:android
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:11-69
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:1-145:12
 	package
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:4:2-33
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:4:2-33
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:6:7-34
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:6:7-34
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:3:2-48
+	xmlns:android
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:5:7-31
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:5:7-31
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
 	android:installLocation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:7:7-37
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:7:7-37
 supports-screens
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:8:5-12:33
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:8:5-12:33
 	android:largeScreens
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:9:6-33
-	android:anyDensity
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:12:6-31
-	android:normalScreens
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:10:6-34
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:9:6-33
 	android:smallScreens
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:11:6-33
-uses-sdk
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:13:5-43
-	android:targetSdkVersion
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-	android:minSdkVersion
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:13:15-40
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:11:6-33
+	android:normalScreens
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:10:6-34
+	android:anyDensity
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:12:6-31
 uses-permission#android.permission.RESTART_PACKAGES
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:16:2-72
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:15:2-72
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:16:19-69
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:15:19-69
 uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:17:2-80
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:16:2-80
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:17:19-78
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:16:19-78
 uses-permission#android.permission.GET_PACKAGE_SIZE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:18:2-71
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:17:2-71
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:18:19-69
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:17:19-69
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:19:2-73
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:18:2-73
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:19:19-70
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:18:19-70
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:20:2-72
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:19:2-72
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:20:19-70
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:19:19-70
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:21:2-64
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:20:2-64
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:21:19-62
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:20:19-62
 uses-permission#android.permission.INTERNET
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:22:5-67
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:22:22-64
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:21:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:23:5-78
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:22:5-78
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:23:22-76
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:22:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:24:5-81
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:24:22-78
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:23:22-78
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:25:5-73
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:24:5-73
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:25:22-70
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:24:22-70
 uses-permission#android.permission.WRITE_APN_SETTINGS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:26:5-27:41
-	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:26:22-74
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:25:5-26:41
 	tools:ignore
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:27:3-38
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:26:3-38
+	android:name
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:25:22-74
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:28:5-68
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:28:22-65
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:27:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:29:5-73
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:28:5-73
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:29:22-71
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:28:22-71
 uses-permission#android.permission.CLEAR_APP_CACHE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:30:5-73
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:29:5-73
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:30:22-71
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:29:22-71
 application
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:32:5-145:19
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:31:5-144:19
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:32:51-83
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:31:51-83
 	android:icon
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:32:18-50
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:31:18-50
 	android:theme
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:34:6-48
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:33:6-48
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:33:6-45
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:32:6-45
 activity#com.tresksoft.toolbox.ProccessManager.ActivityProcessManager
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:35:9-42:20
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:34:9-41:20
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:37:19-55
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:36:19-55
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:36:19-51
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:35:19-51
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:35:19-73
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.VIEW_LIST_PROCESS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:38:13-41:29
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:34:19-73
+intent-filter#action:name:com.tresksoft.toolbox.VIEW_LIST_PROCESS+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:37:13-40:29
 action#com.tresksoft.toolbox.VIEW_LIST_PROCESS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:39:17-82
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:39:25-79
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:38:25-79
 category#android.intent.category.DEFAULT
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:40:17-76
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:40:27-73
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:39:27-73
 activity#com.tresksoft.toolbox.ProccessManager.ActivityProcessManagerIgnore
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:43:9-50:20
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:42:9-49:20
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:45:19-55
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:44:19-55
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:44:19-51
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:43:19-51
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:43:19-79
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.VIEW_LIST_IGNORE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:46:13-49:29
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:42:19-79
+intent-filter#action:name:com.tresksoft.toolbox.VIEW_LIST_IGNORE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:45:13-48:29
 action#com.tresksoft.toolbox.VIEW_LIST_IGNORE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:47:17-81
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:46:17-81
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:47:25-78
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:46:25-78
 activity#com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:51:9-58:20
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:50:9-57:20
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:53:19-55
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:52:19-55
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:52:19-51
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:51:19-51
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:51:19-80
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.VIEW_LIST_APLICACIONES
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:54:13-57:29
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:50:19-80
+intent-filter#action:name:com.tresksoft.toolbox.VIEW_LIST_APLICACIONES+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:53:13-56:29
 action#com.tresksoft.toolbox.VIEW_LIST_APLICACIONES
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:55:17-87
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:54:17-87
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:55:25-84
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:54:25-84
 activity#com.tresksoft.toolbox.ActivityPreferences
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:59:3-61:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:58:3-60:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:60:7-43
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:59:7-43
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:59:13-48
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:58:13-48
 activity#com.tresksoft.toolbox.Home.ActivityMain
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:62:3-69:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:61:3-68:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:64:7-43
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:63:7-43
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:63:7-39
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:62:7-39
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:62:13-46
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:65:7-68:23
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:61:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:64:7-67:23
 action#android.intent.action.MAIN
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:66:19-71
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:65:19-71
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:66:27-68
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:65:27-68
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:67:19-79
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:66:19-79
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:67:29-76
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:66:29-76
 activity#com.tresksoft.toolbox.WifiManager.ActivityWifiManager
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:70:3-77:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:69:3-76:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:72:7-43
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:71:7-43
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:71:7-48
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:70:7-48
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:70:13-60
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.VIEW_LIST_WIFI
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:73:7-76:23
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:69:13-60
+intent-filter#action:name:com.tresksoft.toolbox.VIEW_LIST_WIFI+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:72:7-75:23
 action#com.tresksoft.toolbox.VIEW_LIST_WIFI
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:74:8-69
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:73:8-69
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:74:16-67
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:73:16-67
 activity#com.tresksoft.toolbox.WifiManager.ActivityWifiProfile
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:78:3-85:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:77:3-84:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:80:7-43
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:79:7-43
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:79:7-48
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:78:7-48
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:78:13-60
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.VIEW_LIST_WIFI_PROFILE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:81:7-84:23
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:77:13-60
+intent-filter#action:name:com.tresksoft.toolbox.VIEW_LIST_WIFI_PROFILE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:80:7-83:23
 action#com.tresksoft.toolbox.VIEW_LIST_WIFI_PROFILE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:82:8-77
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:81:8-77
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:82:16-75
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:81:16-75
 activity#com.tresksoft.toolbox.BatteryManager.ActivityBatteryManager
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:86:3-93:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:85:3-92:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:88:7-43
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:87:7-43
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:87:7-51
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:86:7-51
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:86:13-66
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_BATTERY
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:89:7-92:23
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:85:13-66
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_BATTERY+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:88:7-91:23
 action#com.tresksoft.toolbox.ACTIVITY_BATTERY
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:90:8-71
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:89:8-71
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:90:16-69
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:89:16-69
 activity#com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfiles
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:94:3-101:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:93:3-100:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:96:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:95:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:95:10-62
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:94:10-62
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:94:13-67
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:97:10-100:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:93:13-67
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:96:10-99:26
 action#com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:98:14-85
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:97:14-85
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:98:22-83
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:97:22-83
 activity#com.tresksoft.toolbox.NetworkManager.ActivityNetworkProfilesAdd
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:102:3-109:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:101:3-108:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:104:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:103:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:103:10-62
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:102:10-62
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:102:13-70
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE_ADD
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:105:10-108:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:101:13-70
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE_ADD+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:104:10-107:26
 action#com.tresksoft.toolbox.ACTIVITY_NETWORK_PROFILE_ADD
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:106:14-89
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:105:14-89
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:106:22-87
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:105:22-87
 activity#com.tresksoft.toolbox.WifiManager.ActivityWifiSignalSurvey
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:110:3-117:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:109:3-116:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:112:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:111:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:111:10-62
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:110:10-62
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:110:13-65
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_WIFI_SIGNAL_SURVEY
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:113:10-116:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:109:13-65
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_WIFI_SIGNAL_SURVEY+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:112:10-115:26
 action#com.tresksoft.toolbox.ACTIVITY_WIFI_SIGNAL_SURVEY
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:114:14-88
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:113:14-88
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:114:22-86
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:113:22-86
 activity#com.tresksoft.toolbox.SpeedSettingsManager.ActivitySpeedSettings
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:118:3-125:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:117:3-124:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:120:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:119:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:119:10-61
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:118:10-61
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:118:13-71
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_SPEED_SETTINGS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:121:10-124:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:117:13-71
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_SPEED_SETTINGS+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:120:10-123:26
 action#com.tresksoft.toolbox.ACTIVITY_SPEED_SETTINGS
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:122:14-84
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:121:14-84
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:122:22-82
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:121:22-82
 activity#com.tresksoft.toolbox.CacheManager.ActivityCacheClean
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:126:3-133:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:125:3-132:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:128:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:127:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:127:10-58
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:126:10-58
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:126:13-60
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_CACHE_CLEAN
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:129:10-132:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:125:13-60
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_CACHE_CLEAN+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:128:10-131:26
 action#com.tresksoft.toolbox.ACTIVITY_CACHE_CLEAN
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:130:14-81
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:129:14-81
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:130:22-79
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:129:22-79
 activity#com.tresksoft.toolbox.Move2SDManager.ActivityMove2SD
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:134:3-141:14
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:133:3-140:14
 	android:screenOrientation
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:136:10-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:135:10-46
 	android:label
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:135:10-54
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:134:10-54
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:134:13-59
-intent-filter#android.intent.category.DEFAULT+com.tresksoft.toolbox.ACTIVITY_MOVE_SD
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:137:10-140:26
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:133:13-59
+intent-filter#action:name:com.tresksoft.toolbox.ACTIVITY_MOVE_SD+category:name:android.intent.category.DEFAULT
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:136:10-139:26
 action#com.tresksoft.toolbox.ACTIVITY_MOVE_SD
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:138:14-77
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:137:14-77
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:138:22-75
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:137:22-75
 activity#com.google.ads.AdActivity
-ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:142:3-143:121
+ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:141:3-142:121
 	android:configChanges
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:143:10-119
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:142:10-119
 	android:name
-		ADDED from /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/AndroidManifest.xml:142:13-53
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:141:13-53
+uses-sdk
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml
