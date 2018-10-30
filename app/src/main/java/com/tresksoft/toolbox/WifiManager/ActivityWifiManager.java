@@ -22,7 +22,7 @@ import android.widget.TextView;
 
 import com.mobeng.third_party.ActionItem;
 import com.mobeng.third_party.QuickAction;
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.ActivityMain;
 import com.tresksoft.graphics.SaundProgressBar;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.Home.ProcessApplication;

@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.ActivityMain;
 import com.tresksoft.graphics.LineChart;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;

@@ -22,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.ActivityMain;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.WifiManager.FactoryWifi;
 import com.tresksoft.toolbox.WifiManager.Wifi;

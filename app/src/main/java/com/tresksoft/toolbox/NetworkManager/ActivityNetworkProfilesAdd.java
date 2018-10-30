@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.ActivityMain;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
 
