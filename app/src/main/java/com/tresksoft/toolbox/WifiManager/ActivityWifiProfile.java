@@ -25,7 +25,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.Views.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.R;
 
@@ -165,7 +165,7 @@ public class ActivityWifiProfile extends ListActivity{
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		this.startActivity(intent);
 	}

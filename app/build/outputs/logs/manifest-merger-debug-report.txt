@@ -155,14 +155,14 @@ ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManif
 		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:59:7-43
 	android:name
 		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:58:13-48
-activity#com.tresksoft.toolbox.Home.ActivityMain
+activity#com.tresksoft.Views.Main
 ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:61:3-68:14
 	android:screenOrientation
 		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:63:7-43
 	android:label
 		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:62:7-39
 	android:name
-		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:61:13-46
+		ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:61:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/AndroidManifest.xml:64:7-67:23
 action#android.intent.action.MAIN

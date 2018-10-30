@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import com.tresksoft.Views.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.graphics.LineChart;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
@@ -166,7 +166,7 @@ public class ActivityWifiSignalSurvey extends Activity {
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		this.startActivity(intent);
 	}

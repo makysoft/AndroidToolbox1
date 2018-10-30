@@ -58,7 +58,7 @@
 		<activity android:name=".ActivityPreferences"
 				  android:screenOrientation="portrait">
 		</activity>
-		<activity android:name="com.tresksoft.Views.ActivityMain"
+		<activity android:name="com.tresksoft.Views.Main"
 				  android:label="@string/app_name"
 				  android:screenOrientation="portrait">
 				  <intent-filter >

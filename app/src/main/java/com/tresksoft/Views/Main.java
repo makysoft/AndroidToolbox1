@@ -32,7 +32,7 @@ import com.tresksoft.toolbox.WifiManager.FactoryWifi;
 import com.tresksoft.toolbox.WifiManager.Wifi;
 
 
-public class ActivityMain extends Activity implements OnClickListener, HomeContract.View {
+public class Main extends Activity implements OnClickListener, HomeContract.View {
 
     private HomePresenter mHomePresenter;
 
@@ -75,7 +75,7 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		initialize();
 		
 //		factory = new FactoryWifi(typeDevice);
-//		wifiObject = (Wifi)factory.createFactory(ActivityMain.this);
+//		wifiObject = (Wifi)factory.createFactory(Main.this);
 //		wifiObject.setHandler(mHandler);
 
 	}

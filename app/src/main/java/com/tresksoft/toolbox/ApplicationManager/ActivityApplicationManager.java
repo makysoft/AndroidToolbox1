@@ -32,8 +32,8 @@ import com.mobeng.libs.LibBase;
 import com.mobeng.third_party.ActionItem;
 import com.mobeng.third_party.QuickAction;
 import com.treksoft.apps.LibApps;
+import com.tresksoft.Views.Main;
 import com.tresksoft.graphics.PieChart;
-import com.tresksoft.Views.ActivityMain;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
@@ -408,7 +408,7 @@ public class ActivityApplicationManager extends ListActivity
 	}
 	
 	public void onHomeClick(View v) {
-		final Intent intent = new Intent(this, ActivityMain.class);
+		final Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		this.startActivity(intent);
 	}
