@@ -41,16 +41,17 @@ return this;
 }
 @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
 {
+java.lang.String descriptor = DESCRIPTOR;
 switch (code)
 {
 case INTERFACE_TRANSACTION:
 {
-reply.writeString(DESCRIPTOR);
+reply.writeString(descriptor);
 return true;
 }
 case TRANSACTION_getPackageInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -68,7 +69,7 @@ return true;
 }
 case TRANSACTION_getPackageUid:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _result = this.getPackageUid(_arg0);
@@ -78,7 +79,7 @@ return true;
 }
 case TRANSACTION_getPackageGids:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int[] _result = this.getPackageGids(_arg0);
@@ -88,7 +89,7 @@ return true;
 }
 case TRANSACTION_currentToCanonicalPackageNames:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String[] _arg0;
 _arg0 = data.createStringArray();
 java.lang.String[] _result = this.currentToCanonicalPackageNames(_arg0);
@@ -98,7 +99,7 @@ return true;
 }
 case TRANSACTION_canonicalToCurrentPackageNames:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String[] _arg0;
 _arg0 = data.createStringArray();
 java.lang.String[] _result = this.canonicalToCurrentPackageNames(_arg0);
@@ -108,7 +109,7 @@ return true;
 }
 case TRANSACTION_getPermissionInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -126,7 +127,7 @@ return true;
 }
 case TRANSACTION_queryPermissionsByGroup:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -138,7 +139,7 @@ return true;
 }
 case TRANSACTION_getPermissionGroupInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -156,7 +157,7 @@ return true;
 }
 case TRANSACTION_getAllPermissionGroups:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.util.List<android.content.pm.PermissionGroupInfo> _result = this.getAllPermissionGroups(_arg0);
@@ -166,7 +167,7 @@ return true;
 }
 case TRANSACTION_getApplicationInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -184,7 +185,7 @@ return true;
 }
 case TRANSACTION_getActivityInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -207,7 +208,7 @@ return true;
 }
 case TRANSACTION_getReceiverInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -230,7 +231,7 @@ return true;
 }
 case TRANSACTION_getServiceInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -253,7 +254,7 @@ return true;
 }
 case TRANSACTION_getProviderInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -276,7 +277,7 @@ return true;
 }
 case TRANSACTION_checkPermission:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 java.lang.String _arg1;
@@ -288,7 +289,7 @@ return true;
 }
 case TRANSACTION_checkUidPermission:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -300,7 +301,7 @@ return true;
 }
 case TRANSACTION_addPermission:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.pm.PermissionInfo _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.pm.PermissionInfo.CREATOR.createFromParcel(data);
@@ -315,7 +316,7 @@ return true;
 }
 case TRANSACTION_removePermission:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 this.removePermission(_arg0);
@@ -324,7 +325,7 @@ return true;
 }
 case TRANSACTION_isProtectedBroadcast:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 boolean _result = this.isProtectedBroadcast(_arg0);
@@ -334,7 +335,7 @@ return true;
 }
 case TRANSACTION_checkSignatures:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 java.lang.String _arg1;
@@ -346,7 +347,7 @@ return true;
 }
 case TRANSACTION_checkUidSignatures:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 int _arg1;
@@ -358,7 +359,7 @@ return true;
 }
 case TRANSACTION_getPackagesForUid:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String[] _result = this.getPackagesForUid(_arg0);
@@ -368,7 +369,7 @@ return true;
 }
 case TRANSACTION_getNameForUid:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.lang.String _result = this.getNameForUid(_arg0);
@@ -378,7 +379,7 @@ return true;
 }
 case TRANSACTION_getUidForSharedUser:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _result = this.getUidForSharedUser(_arg0);
@@ -388,7 +389,7 @@ return true;
 }
 case TRANSACTION_resolveIntent:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.Intent _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.Intent.CREATOR.createFromParcel(data);
@@ -413,7 +414,7 @@ return true;
 }
 case TRANSACTION_queryIntentActivities:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.Intent _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.Intent.CREATOR.createFromParcel(data);
@@ -432,7 +433,7 @@ return true;
 }
 case TRANSACTION_queryIntentActivityOptions:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -462,7 +463,7 @@ return true;
 }
 case TRANSACTION_queryIntentReceivers:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.Intent _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.Intent.CREATOR.createFromParcel(data);
@@ -481,7 +482,7 @@ return true;
 }
 case TRANSACTION_resolveService:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.Intent _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.Intent.CREATOR.createFromParcel(data);
@@ -506,7 +507,7 @@ return true;
 }
 case TRANSACTION_queryIntentServices:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.Intent _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.Intent.CREATOR.createFromParcel(data);
@@ -525,7 +526,7 @@ return true;
 }
 case TRANSACTION_getInstalledPackages:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.util.List<android.content.pm.PackageInfo> _result = this.getInstalledPackages(_arg0);
@@ -535,7 +536,7 @@ return true;
 }
 case TRANSACTION_getInstalledApplications:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.util.List<android.content.pm.ApplicationInfo> _result = this.getInstalledApplications(_arg0);
@@ -545,7 +546,7 @@ return true;
 }
 case TRANSACTION_getPersistentApplications:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.util.List<android.content.pm.ApplicationInfo> _result = this.getPersistentApplications(_arg0);
@@ -555,7 +556,7 @@ return true;
 }
 case TRANSACTION_resolveContentProvider:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -573,7 +574,7 @@ return true;
 }
 case TRANSACTION_querySyncProviders:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.util.List<java.lang.String> _arg0;
 _arg0 = data.createStringArrayList();
 java.util.List<android.content.pm.ProviderInfo> _arg1;
@@ -586,7 +587,7 @@ return true;
 }
 case TRANSACTION_queryContentProviders:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -600,7 +601,7 @@ return true;
 }
 case TRANSACTION_getInstrumentationInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -623,7 +624,7 @@ return true;
 }
 case TRANSACTION_queryInstrumentation:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -635,7 +636,7 @@ return true;
 }
 case TRANSACTION_installPackage:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.net.Uri _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.net.Uri.CREATOR.createFromParcel(data);
@@ -655,7 +656,7 @@ return true;
 }
 case TRANSACTION_finishPackageInstall:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 this.finishPackageInstall(_arg0);
@@ -664,7 +665,7 @@ return true;
 }
 case TRANSACTION_deletePackage:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 android.content.pm.IPackageDeleteObserver _arg1;
@@ -677,7 +678,7 @@ return true;
 }
 case TRANSACTION_getInstallerPackageName:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 java.lang.String _result = this.getInstallerPackageName(_arg0);
@@ -687,7 +688,7 @@ return true;
 }
 case TRANSACTION_addPackageToPreferred:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 this.addPackageToPreferred(_arg0);
@@ -696,7 +697,7 @@ return true;
 }
 case TRANSACTION_removePackageFromPreferred:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 this.removePackageFromPreferred(_arg0);
@@ -705,7 +706,7 @@ return true;
 }
 case TRANSACTION_getPreferredPackages:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 java.util.List<android.content.pm.PackageInfo> _result = this.getPreferredPackages(_arg0);
@@ -715,7 +716,7 @@ return true;
 }
 case TRANSACTION_addPreferredActivity:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.IntentFilter _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.IntentFilter.CREATOR.createFromParcel(data);
@@ -740,7 +741,7 @@ return true;
 }
 case TRANSACTION_replacePreferredActivity:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.IntentFilter _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.IntentFilter.CREATOR.createFromParcel(data);
@@ -765,7 +766,7 @@ return true;
 }
 case TRANSACTION_clearPackagePreferredActivities:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 this.clearPackagePreferredActivities(_arg0);
@@ -774,7 +775,7 @@ return true;
 }
 case TRANSACTION_getPreferredActivities:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.util.List<android.content.IntentFilter> _arg0;
 _arg0 = new java.util.ArrayList<android.content.IntentFilter>();
 java.util.List<android.content.ComponentName> _arg1;
@@ -790,7 +791,7 @@ return true;
 }
 case TRANSACTION_setComponentEnabledSetting:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -808,7 +809,7 @@ return true;
 }
 case TRANSACTION_getComponentEnabledSetting:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.ComponentName _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.ComponentName.CREATOR.createFromParcel(data);
@@ -823,7 +824,7 @@ return true;
 }
 case TRANSACTION_setApplicationEnabledSetting:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _arg1;
@@ -836,7 +837,7 @@ return true;
 }
 case TRANSACTION_getApplicationEnabledSetting:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 int _result = this.getApplicationEnabledSetting(_arg0);
@@ -846,7 +847,7 @@ return true;
 }
 case TRANSACTION_freeStorageAndNotify:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 long _arg0;
 _arg0 = data.readLong();
 android.content.pm.IPackageDataObserver _arg1;
@@ -857,7 +858,7 @@ return true;
 }
 case TRANSACTION_freeStorage:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 long _arg0;
 _arg0 = data.readLong();
 android.content.IntentSender _arg1;
@@ -873,7 +874,7 @@ return true;
 }
 case TRANSACTION_deleteApplicationCacheFiles:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 android.content.pm.IPackageDataObserver _arg1;
@@ -884,7 +885,7 @@ return true;
 }
 case TRANSACTION_clearApplicationUserData:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 android.content.pm.IPackageDataObserver _arg1;
@@ -895,7 +896,7 @@ return true;
 }
 case TRANSACTION_getPackageSizeInfo:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 android.content.pm.IPackageStatsObserver _arg1;
@@ -906,7 +907,7 @@ return true;
 }
 case TRANSACTION_getSystemSharedLibraryNames:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String[] _result = this.getSystemSharedLibraryNames();
 reply.writeNoException();
 reply.writeStringArray(_result);
@@ -914,7 +915,7 @@ return true;
 }
 case TRANSACTION_getSystemAvailableFeatures:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.pm.FeatureInfo[] _result = this.getSystemAvailableFeatures();
 reply.writeNoException();
 reply.writeTypedArray(_result, android.os.Parcelable.PARCELABLE_WRITE_RETURN_VALUE);
@@ -922,7 +923,7 @@ return true;
 }
 case TRANSACTION_hasSystemFeature:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 boolean _result = this.hasSystemFeature(_arg0);
@@ -932,14 +933,14 @@ return true;
 }
 case TRANSACTION_enterSafeMode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 this.enterSafeMode();
 reply.writeNoException();
 return true;
 }
 case TRANSACTION_isSafeMode:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.isSafeMode();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -947,14 +948,14 @@ return true;
 }
 case TRANSACTION_systemReady:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 this.systemReady();
 reply.writeNoException();
 return true;
 }
 case TRANSACTION_hasSystemUidErrors:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _result = this.hasSystemUidErrors();
 reply.writeNoException();
 reply.writeInt(((_result)?(1):(0)));
@@ -962,7 +963,7 @@ return true;
 }
 case TRANSACTION_performDexOpt:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 boolean _result = this.performDexOpt(_arg0);
@@ -972,7 +973,7 @@ return true;
 }
 case TRANSACTION_updateExternalMediaStatus:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 boolean _arg0;
 _arg0 = (0!=data.readInt());
 boolean _arg1;
@@ -983,7 +984,7 @@ return true;
 }
 case TRANSACTION_nextPackageToClean:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 java.lang.String _result = this.nextPackageToClean(_arg0);
@@ -993,7 +994,7 @@ return true;
 }
 case TRANSACTION_movePackage:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 java.lang.String _arg0;
 _arg0 = data.readString();
 android.content.pm.IPackageMoveObserver _arg1;
@@ -1006,7 +1007,7 @@ return true;
 }
 case TRANSACTION_addPermissionAsync:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 android.content.pm.PermissionInfo _arg0;
 if ((0!=data.readInt())) {
 _arg0 = android.content.pm.PermissionInfo.CREATOR.createFromParcel(data);
@@ -1021,7 +1022,7 @@ return true;
 }
 case TRANSACTION_setInstallLocation:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _arg0;
 _arg0 = data.readInt();
 boolean _result = this.setInstallLocation(_arg0);
@@ -1031,14 +1032,17 @@ return true;
 }
 case TRANSACTION_getInstallLocation:
 {
-data.enforceInterface(DESCRIPTOR);
+data.enforceInterface(descriptor);
 int _result = this.getInstallLocation();
 reply.writeNoException();
 reply.writeInt(_result);
 return true;
 }
-}
+default:
+{
 return super.onTransact(code, data, reply, flags);
+}
+}
 }
 private static class Proxy implements android.content.pm.IPackageManager
 {
@@ -2181,9 +2185,6 @@ _reply.recycle();
 _data.recycle();
 }
 }
-/**
-     * As per {@link android.content.pm.PackageManager#getComponentEnabledSetting}.
-     */
 @Override public int getComponentEnabledSetting(android.content.ComponentName componentName) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -2228,9 +2229,6 @@ _reply.recycle();
 _data.recycle();
 }
 }
-/**
-     * As per {@link android.content.pm.PackageManager#getApplicationEnabledSetting}.
-     */
 @Override public int getApplicationEnabledSetting(java.lang.String packageName) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -2395,10 +2393,6 @@ _reply.recycle();
 _data.recycle();
 }
 }
-/**
-     * Get a list of shared libraries that are available on the
-     * system.
-     */
 @Override public java.lang.String[] getSystemSharedLibraryNames() throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -2814,17 +2808,11 @@ public int getPreferredActivities(java.util.List<android.content.IntentFilter> o
      * As per {@link android.content.pm.PackageManager#setComponentEnabledSetting}.
      */
 public void setComponentEnabledSetting(android.content.ComponentName componentName, int newState, int flags) throws android.os.RemoteException;
-/**
-     * As per {@link android.content.pm.PackageManager#getComponentEnabledSetting}.
-     */
 public int getComponentEnabledSetting(android.content.ComponentName componentName) throws android.os.RemoteException;
 /**
      * As per {@link android.content.pm.PackageManager#setApplicationEnabledSetting}.
      */
 public void setApplicationEnabledSetting(java.lang.String packageName, int newState, int flags) throws android.os.RemoteException;
-/**
-     * As per {@link android.content.pm.PackageManager#getApplicationEnabledSetting}.
-     */
 public int getApplicationEnabledSetting(java.lang.String packageName) throws android.os.RemoteException;
 /**
      * Free storage by deleting LRU sorted list of cache files across
@@ -2891,10 +2879,6 @@ public void clearApplicationUserData(java.lang.String packageName, android.conte
      * retrieval of information is complete.
      */
 public void getPackageSizeInfo(java.lang.String packageName, android.content.pm.IPackageStatsObserver observer) throws android.os.RemoteException;
-/**
-     * Get a list of shared libraries that are available on the
-     * system.
-     */
 public java.lang.String[] getSystemSharedLibraryNames() throws android.os.RemoteException;
 /**
      * Get a list of features that are available on the

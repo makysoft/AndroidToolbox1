@@ -1,6 +1,7 @@
 package com.tresksoft.toolbox.Home;
 
 import android.content.Context;
+import android.os.Handler;
 
 import com.tresksoft.toolbox.ApplicationManager.AppManagerModel;
 import com.tresksoft.toolbox.CacheManager.CacheManagerModel;
@@ -20,12 +21,12 @@ public class HomeModel {
     private WifiManagerModel wifiManagerModel;
 
 
-    public HomeModel(Context context) {
+    public HomeModel(Context context, Handler handler) {
         this.processManagerModel = new ProcessManagerModel(context);
         this.appManagerModel = new AppManagerModel(context);
         this.cacheManagerModel = new CacheManagerModel(context);
         this.move2SDModel = new Move2SDModel(context);
-        this.wifiManagerModel = new WifiManagerModel(context);
+        this.wifiManagerModel = new WifiManagerModel(context, handler);
     }
 
     public long getMemoryAvailable() {
@@ -52,7 +53,7 @@ public class HomeModel {
         return move2SDModel.getAppMoves2SD();
     }
 
-    public int getWifisAvailable() {
-        return wifiManagerModel.getWifisAvailable();
+    public void getWifisAvailable() {
+        wifiManagerModel.getWifisAvailable();
     }
 }

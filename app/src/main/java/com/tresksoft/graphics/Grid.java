@@ -28,11 +28,11 @@ public class Grid {
 	 * Variables
 	 */
 	
-	// Tamaño del grid
+	// Tamanho del grid
 	public float topX, topY, width, height;
 	public int numLinesX;
 	public int numLinesY;
-	// Acceso desde fuera a la posición del grid
+	// Acceso desde fuera a la posicion del grid
 	public float gridX1, gridY1, gridX2, gridY2;
 	
 	public ArrayList<GridAxis> list_axis = new ArrayList<GridAxis>();
@@ -124,7 +124,7 @@ public class Grid {
 		axisVX2 = topX + 0.02f;
 		axisVY2 = height - 0.02f;
 		
-		// Espacio vertical entre líneas horizontales
+		// Espacio vertical entre lineas horizontales
 		float spaceHeight = (axisVY2 - axisVY1) / numLinesY;
 		
 		// Dibujamos axis horizontal
@@ -173,7 +173,7 @@ public class Grid {
 		y1 = gridY2;
 		y2 = gridY2;
 
-		// Dibuja líneas horizontales
+		// Dibuja lineas horizontales
 		swInit = false;
 		for (int i = 0; i <= numLinesY; i++) {
 			if (swInit) {

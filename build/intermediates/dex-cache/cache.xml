@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ed5e58825e613c02a3a89f8ba9d9ee0aed7c10bf">
+        <dex dex="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cc0a328bdbcc8880973736b2a391809968a968bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e753ea8d0a2dea270da7d96a7d6e9d2e9c10f94">
+        <dex dex="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha8_c7c31a000145522cfd7bf0e69b767952e7c343cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Salva/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha8/constraint-layout-solver-1.0.0-alpha8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="80c371a4fd5e1b77f0e3a25b171356878543ffdd">
+        <dex dex="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha8_80a780dae3035fde1567172260d00f2ddad8b8c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="034625012e4edf4b41ced766b9062cf65e45d98b">
+        <dex dex="/Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_57c6a7955dac3ea82cef508deae1a1c8e4506114/classes.dex" />
+    </item>
+
+</items>

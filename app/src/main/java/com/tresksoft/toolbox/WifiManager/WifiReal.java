@@ -99,14 +99,14 @@ public class WifiReal extends Wifi{
 				networkList.scanResult(mainWifi, scanResultList);
 				wifis = networkList.getNetworkList();
 			}
-			handler.sendEmptyMessage(0);
+			handler.sendEmptyMessage(5);
 		}
 	}
 	
 	public class WifiStatusReceiver extends BroadcastReceiver {
 		public void onReceive(Context c, Intent intent) {
 			//actualizarEstado();
-			handler.sendEmptyMessage(1);
+			handler.sendEmptyMessage(6);
 		}
 	}
 	

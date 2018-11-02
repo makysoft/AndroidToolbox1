@@ -30,12 +30,14 @@ public class HomePresenter {
     private final int EMPTY_MESSAGE_CACHE_MANAGER = 3;
     private final int EMPTY_MESSAGE_SD = 4;
     private final int EMPTY_MESSAGE_WIFI_MANAGER = 0;
+    private final int CALLBACK_WIFI_SCAN = 5;
+    private final int CALLBACK_WIFI_STATUS = 6;
 
 
-    public HomePresenter(HomeContract.View view, HomeModel homeModel) {
+    public HomePresenter(HomeContract.View view, Context context) {
 
         this.view = view;
-        this.homeModel = homeModel;
+        this.homeModel = new HomeModel(context, mHandler);
     }
 
     public void onHomeButtonClick(int id) {
@@ -179,6 +181,7 @@ public class HomePresenter {
 
     {
         mHandler = new Handler() {
+
             public void handleMessage(final Message msg) {
                 switch (msg.what) {
                     case EMPTY_MESSAGE_PROCESS_MANAGER:
@@ -194,7 +197,11 @@ public class HomePresenter {
                         view.updateMove2SDInfo(homeModel.getAppMoves2SD());
                         break;
                     case EMPTY_MESSAGE_WIFI_MANAGER:
-                        view.updateWifiInfo(homeModel.getWifisAvailable());
+                        homeModel.getWifisAvailable();
+                        break;
+                    case CALLBACK_WIFI_SCAN:
+                        break;
+                    case CALLBACK_WIFI_STATUS:
                         break;
                 }
             }

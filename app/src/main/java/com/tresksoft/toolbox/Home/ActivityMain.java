@@ -1,12 +1,7 @@
 package com.tresksoft.toolbox.Home;
 
-import java.util.List;
-
 import android.app.Activity;
-import android.app.ActivityManager.MemoryInfo;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,17 +11,10 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.mobeng.libs.LibAppManager;
-import com.mobeng.libs.LibBase;
-import com.mobeng.libs.LibProcessManager;
-import com.treksoft.apps.LibApps;
-import com.tresksoft.toolbox.Funciones;
 import com.tresksoft.toolbox.R;
-import com.tresksoft.toolbox.data.CAplicacion;
-import com.tresksoft.toolbox.data.CItemDefault;
-import com.tresksoft.toolbox.data.CTamanhoBytes;
 import com.tresksoft.toolbox.WifiManager.FactoryWifi;
 import com.tresksoft.toolbox.WifiManager.Wifi;
+import com.tresksoft.toolbox.data.CTamanhoBytes;
 
 
 public class ActivityMain extends Activity implements OnClickListener, HomeContract.View {
@@ -61,7 +49,7 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 		super.onCreate(savedInstanceState);
 
         // Refactor MVP
-        mHomePresenter = new HomePresenter(this, new HomeModel(this));
+        mHomePresenter = new HomePresenter(this, this.getBaseContext());
         //
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -224,6 +212,10 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 	public void updateMove2SDInfo(int appMoves2SD) {
 		tvMove2SD.setText(appMoves2SD + " " + getResources().getString(R.string.lbl_apps));
 		tvMove2SD.setText(appMoves2SD + " " + getResources().getString(R.string.lbl_apps));
+	}
+
+	public void updateWifiInfo(int wifisAvailable) {
+
 	}
 
 }

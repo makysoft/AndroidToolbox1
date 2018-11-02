@@ -15,6 +15,8 @@ public class HomeContract {
 
         void updateMove2SDInfo(int appMoves2SD);
 
+        void updateWifiInfo(int wifisAvailable);
+
     }
 
 }

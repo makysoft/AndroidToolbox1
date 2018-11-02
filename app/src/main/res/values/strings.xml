@@ -230,4 +230,9 @@
 	
 	<!-- PROCESS MANAGER -->
 	<string name="lbl_loading_process">Loading process</string>
+    <string name="lbl_process_manager_ram">RAM</string>
+    <string name="lbl_process_manager_cpu">CPU</string>
+    <string name="lbl_process_manager">Process Manager</string>
+    <string name="lbl_cache_cleaner">Cache Cleaner</string>
+    <string name="lbl_guiones">Total apps: --</string>
 </resources>
