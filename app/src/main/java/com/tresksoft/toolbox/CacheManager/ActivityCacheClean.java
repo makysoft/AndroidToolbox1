@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 import com.mobeng.libs.LibAppManager;
 import com.mobeng.libs.LibFileSystem;
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CAplicacion;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
@@ -127,7 +127,7 @@ public class ActivityCacheClean extends ListActivity{
 		
 	
 	public void onHomeClick(View v) {
-		final Intent intent = new Intent(this, ActivityMain.class);
+		final Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		this.startActivity(intent);
 	}

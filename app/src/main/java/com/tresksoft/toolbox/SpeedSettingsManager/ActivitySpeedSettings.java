@@ -16,7 +16,7 @@ import android.widget.ToggleButton;
 
 import com.mobeng.libs.LibBase;
 import com.mobeng.libs.LibBluetooth;
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.apn.ControladorAPN;
 import com.tresksoft.apn.FactoryAPN;
@@ -144,7 +144,7 @@ public class ActivitySpeedSettings extends Activity
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
     	startActivity(intent);
 	}
 	

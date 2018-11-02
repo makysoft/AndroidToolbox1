@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Volumes/WD-Fijo/PROYECTOS/AndroidToolbox1/app/src/main/aidl/android/content/pm/IPackageStatsObserver.aidl
+ * Original file: /Users/salva/StudioProjects/AndroidToolbox1/app/src/main/aidl/android/content/pm/IPackageStatsObserver.aidl
  */
 package android.content.pm;
 /**

@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
 
@@ -155,7 +155,7 @@ public class ActivityNetworkProfilesAdd extends Activity{
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
     	startActivity(intent);
 	}
 	

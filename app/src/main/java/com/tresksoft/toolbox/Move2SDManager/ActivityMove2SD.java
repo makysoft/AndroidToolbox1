@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import com.mobeng.libs.LibAppManager;
 import com.treksoft.apps.LibApps;
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.AdapterDefault;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.R;
@@ -168,7 +168,7 @@ public class ActivityMove2SD extends ListActivity{
 	}	
 	
 	public void onHomeClick(View v) {
-		mostrarActivity(ActivityMain.class);
+		mostrarActivity(Main.class);
 	}
 	
 	public void onBatchClick(View v) {

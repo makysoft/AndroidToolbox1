@@ -22,7 +22,7 @@ import android.widget.TextView;
 
 import com.mobeng.third_party.ActionItem;
 import com.mobeng.third_party.QuickAction;
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.graphics.SaundProgressBar;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.Home.ProcessApplication;
@@ -239,7 +239,7 @@ public class ActivityWifiManager extends ListActivity{
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		this.startActivity(intent);
 	}

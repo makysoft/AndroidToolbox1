@@ -19,7 +19,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.DatabaseHelper;
 import com.tresksoft.toolbox.R;
 import com.tresksoft.toolbox.data.CProcess;
@@ -118,7 +118,7 @@ public class ActivityProcessManagerIgnore extends ListActivity{
 	}
 	
 	public void onMainMenuClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
 		intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 		startActivity(intent);
 	}

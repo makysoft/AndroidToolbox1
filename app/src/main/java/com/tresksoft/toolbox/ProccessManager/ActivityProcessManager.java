@@ -23,9 +23,9 @@ import com.mobeng.libs.LibAppManager;
 import com.mobeng.libs.LibProcessManager;
 import com.mobeng.third_party.ActionItem;
 import com.mobeng.third_party.QuickAction;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.ApplicationManager.ActivityApplicationManager;
 import com.tresksoft.graphics.SaundProgressBar;
-import com.tresksoft.toolbox.Home.ActivityMain;
 import com.tresksoft.toolbox.ActivityPreferences;
 import com.tresksoft.toolbox.ColeccionProcesos;
 import com.tresksoft.toolbox.DatabaseHelper;
@@ -218,7 +218,7 @@ public class ActivityProcessManager extends ListActivity {
     }
     
     public void onMainMenuClick(View v) {
-    	Intent intent = new Intent(this, ActivityMain.class);
+    	Intent intent = new Intent(this, Main.class);
     	startActivity(intent);
     }
     

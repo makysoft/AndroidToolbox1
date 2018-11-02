@@ -22,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.tresksoft.toolbox.Home.ActivityMain;
+import com.tresksoft.Views.Main;
 import com.tresksoft.toolbox.Home.ProcessApplication;
 import com.tresksoft.toolbox.WifiManager.FactoryWifi;
 import com.tresksoft.toolbox.WifiManager.Wifi;
@@ -202,7 +202,7 @@ public class ActivityNetworkProfiles extends ListActivity{
 	}
 	
 	public void onHomeClick(View v) {
-		Intent intent = new Intent(this, ActivityMain.class);
+		Intent intent = new Intent(this, Main.class);
     	startActivity(intent);
 	}
 	
