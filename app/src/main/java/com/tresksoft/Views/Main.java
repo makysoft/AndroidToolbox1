@@ -17,7 +17,7 @@ import com.tresksoft.toolbox.WifiManager.Wifi;
 import com.tresksoft.toolbox.data.CTamanhoBytes;
 
 
-public class ActivityMain extends Activity implements OnClickListener, HomeContract.View {
+public class Main extends Activity implements OnClickListener, HomeContract.View {
 
     private HomePresenter mHomePresenter;
 
@@ -66,30 +66,30 @@ public class ActivityMain extends Activity implements OnClickListener, HomeContr
 	}
 	
 	private void initialize() {
-		this.tvWifi = (TextView)findViewById(R.id.tv_main_wifi);
-		this.tvProcesos = (TextView)findViewById(R.id.tv_procesos_ejecucion);
-		this.tvMemoriaLibre = (TextView) findViewById(R.id.tv_free_mem);
-		this.tvMemory = (TextView)findViewById(R.id.tv_apps_memory);
-		this.tvSD = (TextView)findViewById(R.id.tv_apps_memory_sd);
-		this.tvCache = (TextView)findViewById(R.id.tv_main_cache);
-		this.tvMove2SD = (TextView)findViewById(R.id.tv_main_move2sd);
+		tvWifi = (TextView)findViewById(R.id.tv_main_wifi);
+		tvProcesos = (TextView)findViewById(R.id.tv_procesos_ejecucion);
+		tvMemoriaLibre = (TextView) findViewById(R.id.tv_free_mem);
+		tvMemory = (TextView)findViewById(R.id.tv_apps_memory);
+		tvSD = (TextView)findViewById(R.id.tv_apps_memory_sd);
+		tvCache = (TextView)findViewById(R.id.tv_main_cache);
+		tvMove2SD = (TextView)findViewById(R.id.tv_main_move2sd);
 		
-		this.layout_main = (LinearLayout)findViewById(R.id.ad_layout);
-		this.layout_process_manager = (LinearLayout)findViewById(R.id.layout_process_manager);
-		this.layout_app_manager = (LinearLayout)findViewById(R.id.layout_app_manager);
-		this.layout_wifi_manager = (LinearLayout)findViewById(R.id.layout_wifi_manager);
-		this.layout_network_manager = (LinearLayout)findViewById(R.id.layout_network_manager);
-		this.layout_speed_settings = (LinearLayout)findViewById(R.id.layout_speed_settings);
-		this.layout_cache_manager = (LinearLayout)findViewById(R.id.layout_cache_manager);
-		this.layout_move2sd = (LinearLayout)findViewById(R.id.layout_move2sd);
+		layout_main = (LinearLayout)findViewById(R.id.ad_layout);
+		layout_process_manager = (LinearLayout)findViewById(R.id.layout_process_manager);
+		layout_app_manager = (LinearLayout)findViewById(R.id.layout_app_manager);
+		layout_wifi_manager = (LinearLayout)findViewById(R.id.layout_wifi_manager);
+		layout_network_manager = (LinearLayout)findViewById(R.id.layout_network_manager);
+		layout_speed_settings = (LinearLayout)findViewById(R.id.layout_speed_settings);
+		layout_cache_manager = (LinearLayout)findViewById(R.id.layout_cache_manager);
+		layout_move2sd = (LinearLayout)findViewById(R.id.layout_move2sd);
 		
-		this.layout_process_manager.setOnClickListener(this);
-		this.layout_app_manager.setOnClickListener(this);
-		this.layout_wifi_manager.setOnClickListener(this);
-		this.layout_network_manager.setOnClickListener(this);
-		this.layout_speed_settings.setOnClickListener(this);
-		this.layout_cache_manager.setOnClickListener(this);
-		this.layout_move2sd.setOnClickListener(this);
+		layout_process_manager.setOnClickListener(this);
+		layout_app_manager.setOnClickListener(this);
+		layout_wifi_manager.setOnClickListener(this);
+		layout_network_manager.setOnClickListener(this);
+		layout_speed_settings.setOnClickListener(this);
+		layout_cache_manager.setOnClickListener(this);
+		layout_move2sd.setOnClickListener(this);
 	}
 	
 	public boolean onCreateOptionsMenu(Menu menu) {
